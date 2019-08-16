@@ -1,3 +1,13 @@
-@import '_variables.scss';
-@import '_resets.scss';
-@import '_nav.scss';
+@import 'variables.scss';
+@import 'resets.scss';
+@import 'nav.scss';
+@import 'sections.scss';
+
+
+
+
+.clear{
+	display: table;
+	clear: both;
+	content: "";
+}

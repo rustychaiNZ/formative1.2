@@ -3,4 +3,12 @@
   margin: 0;
   box-sizing: border-box; }
 
+.main {
+  width: 99.96%; }
+
+.clear {
+  display: table;
+  clear: both;
+  content: ""; }
+
 /*# sourceMappingURL=style.css.map */
