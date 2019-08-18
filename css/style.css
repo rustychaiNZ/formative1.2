@@ -124,6 +124,7 @@ nav {
 .bttn {
   width: 45.815%;
   max-width: 250px;
+  min-width: 150px;
   float: right;
   margin: 4% 5%;
   height: 40px; }
