@@ -4,7 +4,10 @@ p{
 	margin: 2% 0;
 }
 h1{
-	@include textStyle ($headingFont, 1.8em, blue, center);
+	@include textStyle ($headingFont, 1.7em, blue, center);
+}
+h1:hover{
+	color: $yellow;
 }
 h2{
 	@include textStyle ($headingFont, 1.7em, $fntDark, left);
@@ -22,7 +25,7 @@ li{
 // Buttons
 .paraBttn{
 	text-align: center;
-	margin-top: 1.3vh;
+	margin-top: 1vh;
 	color: black;
 }
 .paraBttn:hover{
