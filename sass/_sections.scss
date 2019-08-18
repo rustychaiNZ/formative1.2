@@ -10,7 +10,7 @@
 	width: 12*$col;
 }
 .brandContainer{
-	width: 9*$col;
+	width: 10*$col;
 	float: left;
 }
 .borderShadow{
@@ -33,7 +33,12 @@
 	background: $bgColorDrk;
 }
 .menuItem{
-	@include divPosition(12*$col, $divPad, left, $bgColorLght)
+	@include divPosition (12*$col, 0, left, $bgColorLght);
+	margin: 2% 0;
+}
+.location{
+	@include divPosition (12*$col, 0, left, $bgColorLght);
+	margin: 2% 0;
 }
 
 // Buttons
@@ -48,12 +53,6 @@
 	color: white;
 	background: $bgColorDrk;
 }
-.bttnDrinks{
-
-}
 .bttnStyle{
 	background: $yellow;
-}
-.bttnFood{
-
 }

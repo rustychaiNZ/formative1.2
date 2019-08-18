@@ -1,22 +1,25 @@
 // @mixin textStyle($ff, $fs, $fc, $ta){
 p{
-	@include textStyle (Arial, 1.1em, $fntParaColor, justify);
+	@include textStyle ($paraFont, 1.1em, $fntParaColor, left);
+	margin: 2% 0;
 }
 h1{
-	@include textStyle ($headingFont, 1.7em, blue, center);
+	@include textStyle ($headingFont, 1.8em, blue, center);
 }
 h2{
-	@include textStyle ($headingFont, 1.6em, $fntDark, left);
+	@include textStyle ($headingFont, 1.7em, $fntDark, left);
 }
 h3{
-	@include textStyle ($headingFont, 1.4em, $fntDark, left);
+	@include textStyle ($headingFont, 1.5em, $fntDark, left);
 }
 h4{
-	@include textStyle ($headingFont, 1.3em, $fntDark, left);
+	@include textStyle ($headingFont, 1.3em, $fntParaColor, center);
 }
 li{
 	@extend p;
 }
+
+// Buttons
 .paraBttn{
 	text-align: center;
 	margin-top: 1.3vh;
@@ -24,4 +27,13 @@ li{
 }
 .paraBttn:hover{
 	color: $fntWhite;
+}
+
+.paraWine{
+	@include textStyle ($paraFont, 0.8em, $fntParaColor, left);
+	margin: 2% 0;
+}
+
+.drinksUl li{
+	margin: 2% 0;
 }

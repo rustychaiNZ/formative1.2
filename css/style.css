@@ -3,6 +3,13 @@
   margin: 0;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  list-style: none; }
+
 nav {
   background-color: white;
   width: 99.96%;
@@ -50,8 +57,7 @@ nav {
 
 .menuContainer {
   width: 16.66%;
-  float: left;
-  margin-top: 1%; }
+  float: left; }
 
 .websiteTitleContainer {
   width: 66.64%;
@@ -74,7 +80,7 @@ nav {
   width: 99.96%; }
 
 .brandContainer {
-  width: 74.97%;
+  width: 83.3%;
   float: left; }
 
 .borderShadow {
@@ -98,9 +104,17 @@ nav {
 
 .menuItem {
   width: 99.96%;
-  padding: 2%;
+  padding: 0;
   float: left;
-  background: #f5f5f5; }
+  background: #f5f5f5;
+  margin: 2% 0; }
+
+.location {
+  width: 99.96%;
+  padding: 0;
+  float: left;
+  background: #f5f5f5;
+  margin: 2% 0; }
 
 .bttn {
   width: 41.65%;
@@ -117,34 +131,35 @@ nav {
   background: #dbc12a; }
 
 p, li {
-  font-family: Arial;
+  font-family: "Oxygen", sans-serif;
   font-size: 1.1em;
   color: #4a4a4a;
-  text-align: justify; }
+  text-align: left;
+  margin: 2% 0; }
 
 h1 {
   font-family: Century Gothic;
-  font-size: 1.7em;
+  font-size: 1.8em;
   color: blue;
   text-align: center; }
 
 h2 {
   font-family: Century Gothic;
-  font-size: 1.6em;
+  font-size: 1.7em;
   color: #2b2b2b;
   text-align: left; }
 
 h3 {
   font-family: Century Gothic;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: #2b2b2b;
   text-align: left; }
 
 h4 {
   font-family: Century Gothic;
   font-size: 1.3em;
-  color: #2b2b2b;
-  text-align: left; }
+  color: #4a4a4a;
+  text-align: center; }
 
 .paraBttn {
   text-align: center;
@@ -153,6 +168,16 @@ h4 {
 
 .paraBttn:hover {
   color: #e3e3e3; }
+
+.paraWine {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8em;
+  color: #4a4a4a;
+  text-align: left;
+  margin: 2% 0; }
+
+.drinksUl li {
+  margin: 2% 0; }
 
 .fntWhite {
   color: #e3e3e3; }
