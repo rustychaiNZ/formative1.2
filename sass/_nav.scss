@@ -1,5 +1,5 @@
 nav{
-	background-color: white;
+	background-color: $bgColorDrk;
 	width: 12*$col;
 	height: 100vh;
 	z-index: 3;
@@ -14,13 +14,14 @@ nav{
 			text-align: center;
 			a.navItem{
 				text-decoration: none;
-				color: #333;
+				color: $fntWhite;
 				padding: 20px;
 				display: block;
 			}
 			a.navItem:hover{
-				background: #573127;
-				color: white;
+				background: $yellow;
+				color: $fntDark;
+				font-weight: 900;
 			}
 		}
 	}
@@ -40,14 +41,17 @@ nav{
 	font-size: 40px;
 	z-index: 3;
 }
+.fas:hover{
+	color: $yellow;
+}
 .close{
-	color: red;
+	color: $red;
 	font-size: 40px;
 	text-align: center;
 	margin: $divMar;	
 }
 .close:hover{
-	color: $bgColorDrk;
+	color: $bgColorLght;
 }
 .menuContainer{
 	width: 2*$col;

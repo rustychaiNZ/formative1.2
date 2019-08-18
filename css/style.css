@@ -11,7 +11,7 @@ ul {
   list-style: none; }
 
 nav {
-  background-color: white;
+  background-color: #333;
   width: 99.96%;
   height: 100vh;
   z-index: 3;
@@ -25,12 +25,13 @@ nav {
       text-align: center; }
       nav ul li a.navItem {
         text-decoration: none;
-        color: #333;
+        color: #e3e3e3;
         padding: 20px;
         display: block; }
       nav ul li a.navItem:hover {
-        background: #573127;
-        color: white; }
+        background: #dbc12a;
+        color: #2b2b2b;
+        font-weight: 900; }
 
 .cPage {
   text-decoration: underline; }
@@ -46,14 +47,17 @@ nav {
   font-size: 40px;
   z-index: 3; }
 
+.fas:hover {
+  color: #dbc12a; }
+
 .close {
-  color: red;
+  color: #a3271c;
   font-size: 40px;
   text-align: center;
   margin: 2%; }
 
 .close:hover {
-  color: #333; }
+  color: #f5f5f5; }
 
 .menuContainer {
   width: 16.66%;
@@ -84,11 +88,12 @@ nav {
   float: left; }
 
 .borderShadow {
-  box-shadow: 1px 1px 30px black; }
+  box-shadow: 2px 2px 10px #333; }
 
 .section {
   width: 99.96%;
-  float: left; }
+  float: left;
+  top: -40; }
 
 .writtenContent {
   width: 99.96%;
@@ -121,7 +126,7 @@ nav {
   float: right;
   margin: 4% 5%;
   height: 5vh;
-  box-shadow: 2px 2px 3px darkgray; }
+  box-shadow: 2px 2px 3px #333; }
 
 .bttn:hover {
   color: white;
