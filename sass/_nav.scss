@@ -1,3 +1,56 @@
 nav{
-	
+	background-color: white;
+	width: 12*$col;
+	height: 100vh;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	ul{
+		list-style: none;
+		li{
+			// font-family: ;
+			text-align: center;
+			a.navItem{
+				text-decoration: none;
+				color: #333;
+				padding: 20px;
+				display: block;
+			}
+			a.navItem:hover{
+				background: #573127;
+				color: white;
+			}
+		}
+	}
+}
+.cPage{
+	// color: ;
+	text-decoration: underline;
+}
+.active{
+	display: block;
+}
+.inactive{
+	display: none;
+}
+.fas{
+	color: #e3e3e3;
+	font-size: 40px;
+	z-index: 3;
+}
+.close{
+	color: red;
+	font-size: 40px;
+	text-align: center;
+	margin: $divMar;	
+}
+.close:hover{
+	color: $bgColor;
+}
+.menuContainer{
+	width: 3*$col;
+	float: left;	
+	margin-top: 1%;
 }
