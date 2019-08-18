@@ -1,13 +1,13 @@
 .sticky{
 	position: sticky;
 	top: 0;
-	width: 12*$col;
+	width: $spanCol;
 	float: left;
 	padding: $divPad;
 	background: $bgColorDrk;
 }
 .main{
-	width: 12*$col;
+	width: $spanCol;
 }
 .brandContainer{
 	width: 10*$col;
@@ -17,22 +17,22 @@
 	box-shadow: 2px 2px 10px $shdwColor;
 }
 .section{
-	width: 12*$col;
+	width: $spanCol;
 	float: left;
 	top:-40;
 }
 .writtenContent{
-	@include divPosition (12*$col, $divPad, left, $bgColorLght);
+	@include divPosition ($spanCol, $divPad, left, $bgColorLght);
 }
 .imgContainer{
-	@include divPosition (12*$col, 0, left, $bgColorDrk);
+	@include divPosition ($spanCol, 0, left, $bgColorDrk);
 }
 .menuItem{
-	@include divPosition (12*$col, 0, left, $bgColorLght);
+	@include divPosition ($spanCol, 0, left, $bgColorLght);
 	margin: 2% 0;
 }
 .location{
-	@include divPosition (12*$col, 0, left, $bgColorLght);
+	@include divPosition ($spanCol, 0, left, $bgColorLght);
 	margin: 2% 0;
 }
 
