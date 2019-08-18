@@ -10,7 +10,7 @@
 	width: 12*$col;
 }
 .brandContainer{
-	width: 6*$col;
+	width: 9*$col;
 	float: left;
 }
 .borderShadow{
@@ -31,4 +31,29 @@
 	width: 12*$col;
 	padding: $divPad;
 	background: $bgColorDrk;
+}
+.menuItem{
+	@include divPosition(12*$col, $divPad, left, $bgColorLght)
+}
+
+// Buttons
+.bttn{
+	width: 5*$col;
+	float: right;
+	margin: 4% 5%;
+	height: 5vh;
+	box-shadow: 2px 2px 3px darkgray;
+}
+.bttn:hover{
+	color: white;
+	background: $bgColorDrk;
+}
+.bttnDrinks{
+
+}
+.bttnStyle{
+	background: $yellow;
+}
+.bttnFood{
+
 }

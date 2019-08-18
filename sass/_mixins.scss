@@ -1,0 +1,12 @@
+@mixin textStyle($ff, $fs, $fc, $ta){
+	font-family: $ff;
+	font-size: $fs;
+	color: $fc;
+	text-align: $ta;
+}
+@mixin divPosition($w, $p, $fl, $bg){
+	width: $w;
+	padding: $p;
+	float: $fl;
+	background: $bg;
+}

@@ -1,0 +1,27 @@
+// @mixin textStyle($ff, $fs, $fc, $ta){
+p{
+	@include textStyle (Arial, 1.1em, $fntParaColor, justify);
+}
+h1{
+	@include textStyle ($headingFont, 1.7em, blue, center);
+}
+h2{
+	@include textStyle ($headingFont, 1.6em, $fntDark, left);
+}
+h3{
+	@include textStyle ($headingFont, 1.4em, $fntDark, left);
+}
+h4{
+	@include textStyle ($headingFont, 1.3em, $fntDark, left);
+}
+li{
+	@extend p;
+}
+.paraBttn{
+	text-align: center;
+	margin-top: 1.3vh;
+	color: black;
+}
+.paraBttn:hover{
+	color: $fntWhite;
+}

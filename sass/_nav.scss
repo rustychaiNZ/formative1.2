@@ -50,7 +50,16 @@ nav{
 	color: $bgColorDrk;
 }
 .menuContainer{
-	width: 3*$col;
+	width: 2*$col;
 	float: left;	
 	margin-top: 1%;
+}
+.websiteTitleContainer{
+	width: 8*$col;
+	float: left;	
+	margin-top: 1%;
+}
+.logoContainer{
+	width: 4*$col;
+	float: right;	
 }
