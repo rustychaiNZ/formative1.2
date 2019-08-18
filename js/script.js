@@ -1,5 +1,3 @@
-console.log('my script is working!!!');
-
 $(document).ready(function(){
 
 	// Opens the hamburger menu
@@ -8,7 +6,7 @@ $(document).ready(function(){
 	})
 
 	//Button that allows you to close the hamburger menu
-	$('#close').click(function(){
+	$('#close, li').click(function(){
 		$('nav').fadeOut(500);
 	})
 
@@ -18,8 +16,8 @@ $(document).ready(function(){
 	})
 
 	// Closes the hamburger menu by selecting an item
-	$('navItem').click(function(){
-		$('nav').fadeOut(500);
-	})
+	// $('navItem').click(function(){
+	// 	$('nav').fadeOut(500);
+	// })
 
 });
