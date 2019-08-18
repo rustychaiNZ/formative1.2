@@ -71,8 +71,29 @@ nav {
 .borderShadow {
   box-shadow: 1px 1px 30px black; }
 
+.section {
+  width: 99.96%;
+  float: left; }
+
+.writtenContent {
+  float: left;
+  width: 99.96%;
+  padding: 2%;
+  background: #f5f5f5; }
+
+.imgContainer {
+  float: left;
+  width: 99.96%;
+  padding: 2%;
+  background: #333; }
+
 .fntWhite {
   color: #e3e3e3; }
+
+.map {
+  width: 99.96%;
+  height: 40vh;
+  border: 0; }
 
 .clear {
   display: table;

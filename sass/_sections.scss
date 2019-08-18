@@ -16,3 +16,19 @@
 .borderShadow{
 	box-shadow: 1px 1px 30px black;
 }
+.section{
+	width: 12*$col;
+	float: left;
+}
+.writtenContent{
+	float: left;
+	width: 12*$col;
+	padding: $divPad;
+	background: $bgColorLght;
+}
+.imgContainer{
+	float: left;
+	width: 12*$col;
+	padding: $divPad;
+	background: $bgColorDrk;
+}
