@@ -21,16 +21,10 @@
 	float: left;
 }
 .writtenContent{
-	float: left;
-	width: 12*$col;
-	padding: $divPad;
-	background: $bgColorLght;
+	@include divPosition (12*$col, $divPad, left, $bgColorLght);
 }
 .imgContainer{
-	float: left;
-	width: 12*$col;
-	padding: $divPad;
-	background: $bgColorDrk;
+	@include divPosition (12*$col, $divPad, left, $bgColorDrk);
 }
 .menuItem{
 	@include divPosition (12*$col, 0, left, $bgColorLght);
