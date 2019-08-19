@@ -78,24 +78,3 @@ body{
 	background: darkslategrey;
 	width: 12*$col;
 }
-
-// Images
-#coverImage{
-	background-image: url("../images/inside-bar.jpg");
-	background-position: top center;
-	background-attachment: fixed;
-	height: 42vh;
-}
-#foodImage{
-	background-image: url("../images/food.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 700px;
-	height: 40vh;
-}
-#drinkImage{
-	background-image: url("../images/drinks.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	height: 50vh;
-}

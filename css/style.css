@@ -82,6 +82,40 @@ h4 {
   transform: translateX(-30%);
   margin: auto; }
 
+#menuFood {
+  background-image: url("../images/food1.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 1250px;
+  background-attachment: fixed;
+  height: 61vh; }
+
+#menuDrinks {
+  background-image: url("../images/drinks1.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 68vh; }
+
+#coverImage {
+  background-image: url("../images/inside-bar.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+  height: 42vh; }
+
+#foodImage {
+  background-image: url("../images/food.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  height: 40vh; }
+
+#drinkImage {
+  background-image: url("../images/drinks.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  height: 50vh; }
+
 .menu {
   width: 100%;
   padding: 2%;
@@ -134,21 +168,6 @@ h4 {
   text-align: center;
   font-size: 40px;
   color: #dbc12a; }
-
-#menuFood {
-  background-image: url("../images/food1.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: 1250px;
-  background-attachment: fixed;
-  height: 61vh; }
-
-#menuDrinks {
-  background-image: url("../images/drinks1.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 68vh; }
 
 nav {
   background-color: #333;
@@ -303,25 +322,6 @@ body {
   height: 400px;
   background: darkslategrey;
   width: 99.96%; }
-
-#coverImage {
-  background-image: url("../images/inside-bar.jpg");
-  background-position: top center;
-  background-attachment: fixed;
-  height: 42vh; }
-
-#foodImage {
-  background-image: url("../images/food.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 700px;
-  height: 40vh; }
-
-#drinkImage {
-  background-image: url("../images/drinks.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  height: 50vh; }
 
 @media only screen and (min-width: 768px) {
   .imgContainer, .writtenContent {
