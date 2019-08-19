@@ -4,6 +4,9 @@
 		width: 50%;
 		float: left;
 	}
+	h1{
+		font-size: 2em;
+	}
 }
 // Desktop
 @media only screen and (min-width: 1024px) {
@@ -11,11 +14,21 @@
 		width: 6*$col;
 		padding-right: $divPad;
 		float: left;
-		height: 310px;
+		height: 260px;
 		margin: 0;
 	}
 	.nonAlcoholic{
 		width: 50%;
 		margin: auto;
+	}
+	.imgContainer{
+		height: 945px;
+	}
+	.location{
+		width: 4*$col;
+		overflow: hidden;
+	}
+	.map{
+		min-height: 100%;
 	}
 }

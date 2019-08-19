@@ -3,6 +3,7 @@
 @import 'resets.scss';
 @import 'nav.scss';
 @import 'sections.scss';
+@import 'menuStyles.scss';
 @import 'type.scss';
 @import 'mediaQuerries.scss';
 
@@ -10,6 +11,15 @@
 	width: 12*$col;
 	height: 40vh;
 	border: 0;
+}
+
+hr{
+	border: none;
+    height: 2px;
+    margin-top: 40px;
+    /* Set the hr color */
+    color: $bgColorDrk; /* old IE */
+    background-color: $bgColorDrk; /* Modern Browsers */
 }
 
 .clear:after{

@@ -3,45 +3,57 @@
 	<head>
 		<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Trax Bar & Cafe | Home</title>
+		<title>Trax Bar & Cafe | Drinks</title>
 	<meta name="author" content="Russell">
 	<meta name="description" content="description here">
 	<meta name="keywords" content="keywords,here">
-	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"> -->
 	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	</head>
 	<body>
-		<div class="main">
+		<div class="main clear">
 			
-			<header>
-
-				<nav>
-					<ul>
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Food</a></li>
-						<li><a href="#">Drinks</a></li>
+			<header class="sticky borderShadow">
+				<div class="menuContainer">
+					<i class="fas fa-bars" id="menu"></i>
+				</div>
+				<nav id="nav">
+					<i class="fa close fa-times-circle" aria-hidden="true" id="close"></i>
+					<ul class="nav">
+						<li class="navItem"><a href="../index.html" class="navItem" id="navItem">Home</a></li>
+						<li class="navItem"><a href="food.html" class="navItem" id="navItem">Food</a></li>
+						<li class="navItem"><a href="#" class="navItem" id="navItem">Drinks</a></li>
 					</ul>
 				</nav>
 
-				<div class="logoContainer">
-					<img src="#" alt="Trax Logo" class="logo">
-				</div>
-				<div class="websiteTitleContainer">
-					<h1>Welcome to Trax</h1>
+				<div class="brandContainer">
+					<div class="websiteTitleContainer">
+						<h1 class="fntWhite"><a href="../index.html">Welcome to Trax</a></h1>
+					</div>
+					<div class="logoContainer">
+						<img src="#" alt="Trax Logo" class="logo">
+					</div>
 				</div>
 			</header>
+
+			<!-- content Begins -->
+
+			<footer>
 				
 				<!-- Social Media -->
 				<div class="social">
 					
 				</div>
-				
+
 
 			</footer>
 
 
 
 		</div>
+		<script src="../js/script.js"></script>
 	</body>
 </html>

@@ -1,0 +1,21 @@
+// Menu Sections
+.menu{
+	@include divPosition ($spanCol, $divPad, left, $bgColorLght);
+}
+
+
+.indicatorContainor{
+	width: 4*$col;
+	float: right;
+	padding: 0 $divPad;
+}
+.menuHeadingCon{
+	width: 8*$col;
+	float: left;
+}
+.downIndicator{
+	display: block;
+	float: right;
+	font-size: 40px;
+	color: $yellow;
+}
