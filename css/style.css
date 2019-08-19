@@ -76,6 +76,12 @@ h4 {
   margin: auto;
   display: block; }
 
+.siteImage {
+  height: 60vh;
+  margin-left: 30%;
+  transform: translateX(-30%);
+  margin: auto; }
+
 .menu {
   width: 100%;
   padding: 2%;
@@ -128,6 +134,16 @@ h4 {
   text-align: center;
   font-size: 40px;
   color: #dbc12a; }
+
+#menuFood {
+  background-image: url("../images/food1.jpg");
+  background-position: center;
+  height: 60vh; }
+
+#menuDrinks {
+  background-image: url("../images/drinks1.jpg");
+  background-position: center;
+  height: 68vh; }
 
 nav {
   background-color: #333;
@@ -237,7 +253,9 @@ body {
   width: 100%;
   padding: 0;
   float: left;
-  background: #333; }
+  background: 0;
+  overflow: hidden;
+  min-height: 200px; }
 
 .menuItem {
   width: 100%;
@@ -280,6 +298,21 @@ body {
   height: 400px;
   background: darkslategrey;
   width: 99.96%; }
+
+#coverImage {
+  background-image: url("../images/inside-bar.jpg");
+  background-position: center;
+  height: 50vh; }
+
+#foodImage {
+  background-image: url("../images/food.jpg");
+  background-position: center;
+  height: 50vh; }
+
+#drinkImage {
+  background-image: url("../images/drinks.jpg");
+  background-position: center;
+  height: 50vh; }
 
 @media only screen and (min-width: 768px) {
   .imgContainer, .writtenContent {

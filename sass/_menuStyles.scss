@@ -53,3 +53,15 @@
 	font-size: 40px;
 	color: $yellow;
 }
+
+// Images
+#menuFood{
+	background-image: url("../images/food1.jpg");
+	background-position: center;
+	height: 60vh;
+}
+#menuDrinks{
+	background-image: url("../images/drinks1.jpg");
+	background-position: center;
+	height: 68vh;
+}

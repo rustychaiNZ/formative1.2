@@ -37,7 +37,9 @@ body{
 	@include divPosition ($spanCol, 0, left, $bgColorLght)
 }
 .imgContainer{
-	@include divPosition ($spanCol, 0, left, $bgColorDrk);
+	@include divPosition ($spanCol, 0, left, 0);
+	overflow: hidden;
+	min-height: 200px;
 }
 .menuItem{
 	@include divPosition ($spanCol, 0, left, $bgColorLght);
@@ -75,4 +77,21 @@ body{
 	height: 400px;
 	background: darkslategrey;
 	width: 12*$col;
+}
+
+// Images
+#coverImage{
+	background-image: url("../images/inside-bar.jpg");
+	background-position: center;
+	height: 50vh;
+}
+#foodImage{
+	background-image: url("../images/food.jpg");
+	background-position: center;
+	height: 50vh;
+}
+#drinkImage{
+	background-image: url("../images/drinks.jpg");
+	background-position: center;
+	height: 50vh;
 }
