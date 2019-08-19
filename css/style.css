@@ -10,6 +10,131 @@ a {
 ul {
   list-style: none; }
 
+.clear:after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+p, li, .menuTable td {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.1em;
+  color: #4a4a4a;
+  text-align: left;
+  margin: 2% 0; }
+
+h1 {
+  font-family: Century Gothic;
+  font-size: 1.6em;
+  color: #e3e3e3;
+  text-align: center; }
+
+h1:hover {
+  color: #dbc12a; }
+
+h2 {
+  font-family: Century Gothic;
+  font-size: 1.7em;
+  color: #2b2b2b;
+  text-align: left; }
+
+h3 {
+  font-family: Century Gothic;
+  font-size: 1.5em;
+  color: #2b2b2b;
+  text-align: left; }
+
+h4 {
+  font-family: Century Gothic;
+  font-size: 1.3em;
+  color: #4a4a4a;
+  text-align: center; }
+
+.paraBttn {
+  text-align: center;
+  margin-top: 8px;
+  color: black; }
+
+.paraBttn:hover {
+  color: #e3e3e3; }
+
+.paraWine {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8em;
+  color: #4a4a4a;
+  text-align: left;
+  margin: 2% 0; }
+
+.drinksUl li {
+  margin: 2% 0; }
+
+.link {
+  color: #ffda00;
+  text-decoration: underline; }
+
+.menu {
+  width: 100%;
+  padding: 2%;
+  float: left;
+  background: #f2f2f2; }
+
+.menuHidden {
+  width: 100%;
+  padding: 2%;
+  float: left;
+  background: white; }
+
+.menuHidden {
+  display: none; }
+
+.menuList {
+  width: 66.64%;
+  padding: 0;
+  float: left;
+  background: 0; }
+
+.menuPrice {
+  width: 33.32%;
+  padding: 0;
+  float: left;
+  background: 0; }
+
+.menuTable td {
+  padding: 1% 0; }
+.menuTable th {
+  font-family: Century Gothic;
+  font-size: 1.1em;
+  color: #4a4a4a;
+  text-align: left;
+  padding: 1% 0; }
+
+th.subH {
+  font-size: 1.5em;
+  text-align: center;
+  margin: auto;
+  color: black; }
+
+.indicatorContainor {
+  width: 33.32%;
+  float: right;
+  padding: 0 4%; }
+
+.menuHeadingCon {
+  width: 66.64%;
+  float: left; }
+
+.downIndicator {
+  display: block;
+  float: right;
+  font-size: 40px;
+  color: #dbc12a; }
+
+.upIndicator {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: #dbc12a; }
+
 nav {
   background-color: #333;
   width: 99.96%;
@@ -157,111 +282,6 @@ body {
   background: darkslategrey;
   width: 99.96%; }
 
-.menu {
-  width: 100%;
-  padding: 2%;
-  float: left;
-  background: #f2f2f2; }
-
-.menuHidden {
-  width: 100%;
-  padding: 2%;
-  float: left;
-  background: white; }
-
-#breakfastMenu {
-  display: none; }
-
-.menuList {
-  width: 66.64%;
-  padding: 0;
-  float: left;
-  background: 0; }
-
-.menuPrice {
-  width: 33.32%;
-  padding: 0;
-  float: left;
-  background: 0; }
-
-.menuTable th {
-  font-family: Century Gothic;
-  font-size: 1.1em;
-  color: #4a4a4a;
-  text-align: left;
-  margin: 1% 0; }
-
-.indicatorContainor {
-  width: 33.32%;
-  float: right;
-  padding: 0 4%; }
-
-.menuHeadingCon {
-  width: 66.64%;
-  float: left; }
-
-.downIndicator {
-  display: block;
-  float: right;
-  font-size: 40px;
-  color: #dbc12a; }
-
-p, .menuTable td, li {
-  font-family: "Oxygen", sans-serif;
-  font-size: 1.1em;
-  color: #4a4a4a;
-  text-align: left;
-  margin: 2% 0; }
-
-h1 {
-  font-family: Century Gothic;
-  font-size: 1.6em;
-  color: #e3e3e3;
-  text-align: center; }
-
-h1:hover {
-  color: #dbc12a; }
-
-h2 {
-  font-family: Century Gothic;
-  font-size: 1.7em;
-  color: #2b2b2b;
-  text-align: left; }
-
-h3 {
-  font-family: Century Gothic;
-  font-size: 1.5em;
-  color: #2b2b2b;
-  text-align: left; }
-
-h4 {
-  font-family: Century Gothic;
-  font-size: 1.3em;
-  color: #4a4a4a;
-  text-align: center; }
-
-.paraBttn {
-  text-align: center;
-  margin-top: 8px;
-  color: black; }
-
-.paraBttn:hover {
-  color: #e3e3e3; }
-
-.paraWine {
-  font-family: "Oxygen", sans-serif;
-  font-size: 0.8em;
-  color: #4a4a4a;
-  text-align: left;
-  margin: 2% 0; }
-
-.drinksUl li {
-  margin: 2% 0; }
-
-.link {
-  color: #ffda00;
-  text-decoration: underline; }
-
 @media only screen and (min-width: 768px) {
   .imgContainer, .writtenContent {
     width: 50%;
@@ -304,10 +324,5 @@ hr {
   /* old IE */
   background-color: #333;
   /* Modern Browsers */ }
-
-.clear:after {
-  display: table;
-  clear: both;
-  content: ""; }
 
 /*# sourceMappingURL=style.css.map */

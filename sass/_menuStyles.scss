@@ -6,7 +6,7 @@
 	@include divPosition ($spanCol, $divPad, left, white);
 	// display: none;
 }
-#breakfastMenu{
+.menuHidden{
 	display: none;
 }
 .menuList{
@@ -20,12 +20,21 @@
 .menuTable{
 	td{
 		@extend p;
+		padding: 1% 0;
 	}
 	th{
 		@include textStyle ($headingFont, 1.1em, $fntParaColor, left);
-		margin: 1% 0;
+		padding: 1% 0;
+		// padding-bottom: 4px;
 	}
 }
+th.subH{
+	font-size: 1.5em;
+	text-align: center;
+	margin: auto;
+	color: black;
+}
+
 
 
 .indicatorContainor{
@@ -40,6 +49,13 @@
 .downIndicator{
 	display: block;
 	float: right;
+	font-size: 40px;
+	color: $yellow;
+}
+.upIndicator{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 	font-size: 40px;
 	color: $yellow;
 }
