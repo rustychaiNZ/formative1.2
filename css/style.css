@@ -72,6 +72,9 @@ nav {
   width: 33.32%;
   float: right; }
 
+body {
+  background: #f2f2f2; }
+
 .sticky {
   position: sticky;
   top: 0;
@@ -92,12 +95,17 @@ nav {
 
 .section {
   width: 100%;
-  float: left;
-  top: -40; }
+  float: left; }
 
 .writtenContent {
   width: 100%;
   padding: 2%;
+  float: left;
+  background: #f2f2f2; }
+
+.bodyContainer {
+  width: 100%;
+  padding: 0;
   float: left;
   background: #f2f2f2; }
 
@@ -153,7 +161,7 @@ p, li {
 h1 {
   font-family: Century Gothic;
   font-size: 1.7em;
-  color: blue;
+  color: #e3e3e3;
   text-align: center; }
 
 h1:hover {
@@ -179,7 +187,7 @@ h4 {
 
 .paraBttn {
   text-align: center;
-  margin-top: 1vh;
+  margin-top: 8px;
   color: black; }
 
 .paraBttn:hover {
@@ -199,15 +207,27 @@ h4 {
   color: #ffda00;
   text-decoration: underline; }
 
-.fntWhite {
-  color: #e3e3e3; }
+@media only screen and (min-width: 768px) {
+  .imgContainer, .writtenContent {
+    width: 50%;
+    float: left; } }
+@media only screen and (min-width: 1024px) {
+  .menuItem {
+    width: 49.98%;
+    padding-right: 2%;
+    float: left;
+    height: 310px;
+    margin: 0; }
 
+  .nonAlcoholic {
+    width: 50%;
+    margin: auto; } }
 .map {
   width: 99.96%;
   height: 40vh;
   border: 0; }
 
-.clear {
+.clear:after {
   display: table;
   clear: both;
   content: ""; }

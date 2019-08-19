@@ -1,3 +1,6 @@
+body{
+	background: $bgColorLght;
+}
 .sticky{
 	position: sticky;
 	top: 0;
@@ -19,10 +22,12 @@
 .section{
 	width: $spanCol;
 	float: left;
-	top:-40;
 }
 .writtenContent{
 	@include divPosition ($spanCol, $divPad, left, $bgColorLght);
+}
+.bodyContainer{
+	@include divPosition ($spanCol, 0, left, $bgColorLght)
 }
 .imgContainer{
 	@include divPosition ($spanCol, 0, left, $bgColorDrk);

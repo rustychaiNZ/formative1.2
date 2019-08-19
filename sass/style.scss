@@ -3,12 +3,8 @@
 @import 'resets.scss';
 @import 'nav.scss';
 @import 'sections.scss';
-@import 'mediaQuerries.scss';
 @import 'type.scss';
-
-.fntWhite{
-	color: $fntWhite;
-}
+@import 'mediaQuerries.scss';
 
 .map{
 	width: 12*$col;
@@ -16,7 +12,7 @@
 	border: 0;
 }
 
-.clear{
+.clear:after{
 	display: table;
 	clear: both;
 	content: "";

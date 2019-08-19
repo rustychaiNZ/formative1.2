@@ -1,3 +1,21 @@
-@media only screen and (min size: 800px){
-	
+// Ipad
+@media only screen and (min-width: 768px) {
+	.imgContainer, .writtenContent{
+		width: 50%;
+		float: left;
+	}
+}
+// Desktop
+@media only screen and (min-width: 1024px) {
+	.menuItem{
+		width: 6*$col;
+		padding-right: $divPad;
+		float: left;
+		height: 310px;
+		margin: 0;
+	}
+	.nonAlcoholic{
+		width: 50%;
+		margin: auto;
+	}
 }
