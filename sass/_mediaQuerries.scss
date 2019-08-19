@@ -17,12 +17,12 @@
 		height: 260px;
 		margin: 0;
 	}
+	h1{
+		font-size: 3em;
+	}
 	.nonAlcoholic{
 		width: 50%;
 		margin: auto;
-	}
-	.imgContainer{
-		height: 945px;
 	}
 	.location{
 		width: 4*$col;
@@ -30,5 +30,14 @@
 	}
 	.map{
 		min-height: 100%;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.imgContainer{
+		height: 945px;
+	}
+	.map{
+		height: 88vh;
 	}
 }

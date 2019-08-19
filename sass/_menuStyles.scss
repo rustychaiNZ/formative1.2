@@ -9,12 +9,6 @@
 .menuHidden{
 	display: none;
 }
-.menuList{
-	@include divPosition (8*$col, 0, left, 0);
-}
-.menuPrice{
-	@include divPosition (4*$col, 0, left, 0);
-}
 
 // Menu Table
 .menuTable{
@@ -27,14 +21,13 @@
 		padding: 1% 0;
 		// padding-bottom: 4px;
 	}
-}
-th.subH{
+	th.subH{
 	font-size: 1.5em;
 	text-align: center;
 	margin: auto;
 	color: black;
 }
-
+}
 
 
 .indicatorContainor{

@@ -86,18 +86,6 @@ h4 {
 .menuHidden {
   display: none; }
 
-.menuList {
-  width: 66.64%;
-  padding: 0;
-  float: left;
-  background: 0; }
-
-.menuPrice {
-  width: 33.32%;
-  padding: 0;
-  float: left;
-  background: 0; }
-
 .menuTable td {
   padding: 1% 0; }
 .menuTable th {
@@ -106,8 +94,7 @@ h4 {
   color: #4a4a4a;
   text-align: left;
   padding: 1% 0; }
-
-th.subH {
+.menuTable th.subH {
   font-size: 1.5em;
   text-align: center;
   margin: auto;
@@ -199,6 +186,11 @@ nav {
 
 body {
   background: #f2f2f2; }
+
+.map {
+  width: 99.96%;
+  height: 40vh;
+  border: 0; }
 
 .sticky {
   position: sticky;
@@ -297,12 +289,12 @@ body {
     height: 260px;
     margin: 0; }
 
+  h1 {
+    font-size: 3em; }
+
   .nonAlcoholic {
     width: 50%;
     margin: auto; }
-
-  .imgContainer {
-    height: 945px; }
 
   .location {
     width: 33.32%;
@@ -310,11 +302,12 @@ body {
 
   .map {
     min-height: 100%; } }
-.map {
-  width: 99.96%;
-  height: 40vh;
-  border: 0; }
+@media only screen and (min-width: 1920px) {
+  .imgContainer {
+    height: 945px; }
 
+  .map {
+    height: 88vh; } }
 hr {
   border: none;
   height: 2px;

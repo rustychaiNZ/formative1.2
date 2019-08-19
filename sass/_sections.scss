@@ -1,6 +1,11 @@
 body{
 	background: $bgColorLght;
 }
+.map{
+	width: 12*$col;
+	height: 40vh;
+	border: 0;
+}
 .sticky{
 	position: sticky;
 	top: 0;

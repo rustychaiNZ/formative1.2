@@ -14,7 +14,7 @@ $(document).ready(function(){
 		$('nav').fadeOut(500);
 	})
 
-// Menu-------------
+// Food Menu-------------
 	// Opens menu
 	$('#breakfast').click(function(){
 		$('#breakfastMenu').slideDown('500, active');
@@ -44,5 +44,32 @@ $(document).ready(function(){
 	$('#closeAllDaySnack').click(function(){
 		$('#allDaySnackMenu').slideUp(500);
 	})
+
+// Drink Menu----------------------
+	// Opens Menu
+	$('#beer').click(function(){
+		$('#beerMenu').slideDown('500, active');
+	})
+	// Closes Menu
+	$('#closeBeer').click(function(){
+		$('#beerMenu').slideUp(500);
+	})
+
+	$('#wine').click(function(){
+		$('#wineMenu').slideDown('500, active');
+	})
+	
+	$('#closeWine').click(function(){
+		$('#wineMenu').slideUp(500);
+	})
+
+	$('#non-alcoholic').click(function(){
+		$('#non-alcoholicMenu').slideDown('500, active');
+	})
+	
+	$('#closeNon-alcoholic').click(function(){
+		$('#non-alcoholicMenu').slideUp(500);
+	})
+
 
 });
