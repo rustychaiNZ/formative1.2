@@ -86,19 +86,21 @@ h4 {
 .menuHidden {
   display: none; }
 
-.menuTable td {
-  padding: 1% 0; }
-.menuTable th {
-  font-family: Century Gothic;
-  font-size: 1.1em;
-  color: #4a4a4a;
-  text-align: left;
-  padding: 1% 0; }
-.menuTable th.subH {
-  font-size: 1.5em;
-  text-align: center;
-  margin: auto;
-  color: black; }
+.menuTable {
+  width: 100%; }
+  .menuTable td {
+    padding: 1% 0; }
+  .menuTable th {
+    font-family: Century Gothic;
+    font-size: 1.1em;
+    color: #4a4a4a;
+    text-align: left;
+    padding: 1% 0; }
+  .menuTable th.subH {
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    color: black; }
 
 .indicatorContainor {
   width: 33.32%;

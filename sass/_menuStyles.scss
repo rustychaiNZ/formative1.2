@@ -12,6 +12,7 @@
 
 // Menu Table
 .menuTable{
+	width: $spanCol;
 	td{
 		@extend p;
 		padding: 1% 0;
