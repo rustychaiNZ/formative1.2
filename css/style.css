@@ -137,12 +137,17 @@ h4 {
 
 #menuFood {
   background-image: url("../images/food1.jpg");
-  background-position: center;
-  height: 60vh; }
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 1250px;
+  background-attachment: fixed;
+  height: 61vh; }
 
 #menuDrinks {
   background-image: url("../images/drinks1.jpg");
-  background-position: center;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 68vh; }
 
 nav {
@@ -301,17 +306,21 @@ body {
 
 #coverImage {
   background-image: url("../images/inside-bar.jpg");
-  background-position: center;
-  height: 50vh; }
+  background-position: top center;
+  background-attachment: fixed;
+  height: 42vh; }
 
 #foodImage {
   background-image: url("../images/food.jpg");
   background-position: center;
-  height: 50vh; }
+  background-repeat: no-repeat;
+  background-size: 700px;
+  height: 40vh; }
 
 #drinkImage {
   background-image: url("../images/drinks.jpg");
   background-position: center;
+  background-attachment: fixed;
   height: 50vh; }
 
 @media only screen and (min-width: 768px) {
