@@ -163,10 +163,38 @@ body {
   float: left;
   background: #f2f2f2; }
 
+.menuHidden {
+  width: 100%;
+  padding: 2%;
+  float: left;
+  background: white; }
+
+#breakfastMenu {
+  display: none; }
+
+.menuList {
+  width: 66.64%;
+  padding: 0;
+  float: left;
+  background: 0; }
+
+.menuPrice {
+  width: 33.32%;
+  padding: 0;
+  float: left;
+  background: 0; }
+
+.menuTable th {
+  font-family: Century Gothic;
+  font-size: 1.1em;
+  color: #4a4a4a;
+  text-align: left;
+  margin: 1% 0; }
+
 .indicatorContainor {
   width: 33.32%;
   float: right;
-  padding: 0 2%; }
+  padding: 0 4%; }
 
 .menuHeadingCon {
   width: 66.64%;
@@ -178,7 +206,7 @@ body {
   font-size: 40px;
   color: #dbc12a; }
 
-p, li {
+p, .menuTable td, li {
   font-family: "Oxygen", sans-serif;
   font-size: 1.1em;
   color: #4a4a4a;

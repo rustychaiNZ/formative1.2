@@ -2,12 +2,36 @@
 .menu{
 	@include divPosition ($spanCol, $divPad, left, $bgColorLght);
 }
+.menuHidden{
+	@include divPosition ($spanCol, $divPad, left, white);
+	// display: none;
+}
+#breakfastMenu{
+	display: none;
+}
+.menuList{
+	@include divPosition (8*$col, 0, left, 0);
+}
+.menuPrice{
+	@include divPosition (4*$col, 0, left, 0);
+}
+
+// Menu Table
+.menuTable{
+	td{
+		@extend p;
+	}
+	th{
+		@include textStyle ($headingFont, 1.1em, $fntParaColor, left);
+		margin: 1% 0;
+	}
+}
 
 
 .indicatorContainor{
 	width: 4*$col;
 	float: right;
-	padding: 0 $divPad;
+	padding: 0 2*$divPad;
 }
 .menuHeadingCon{
 	width: 8*$col;
