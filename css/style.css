@@ -71,6 +71,11 @@ h4 {
   color: #ffda00;
   text-decoration: underline; }
 
+.logo {
+  width: 41.65%;
+  margin: auto;
+  display: block; }
+
 .menu {
   width: 100%;
   padding: 2%;
