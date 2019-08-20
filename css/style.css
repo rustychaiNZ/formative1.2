@@ -439,11 +439,11 @@ body {
   #foodImage {
     background-size: 1150px;
     background-position: center;
-    height: 65vh; }
+    height: 75vh; }
 
   #drinkImage {
     background-size: 1150px;
-    background-position: center;
+    background-position: top center;
     height: 65vh; }
 
   #menuFood {
