@@ -1,4 +1,4 @@
-nav{
+#nav{
 	background-color: $bgColorDrk;
 	width: 12*$col;
 	height: 100vh;
@@ -25,6 +25,29 @@ nav{
 			}
 		}
 	}
+}
+
+// Nav for Desktop
+#navDesktop{
+	display: none;
+	ul{
+			padding-top: 5px;
+			padding-bottom: 5px;
+			li{
+				display: inline;
+				font-size: 1.4em;
+			}
+			a.navItem{
+				text-decoration: none;
+				color: $fntWhite;
+				padding: 15px 50px;
+			}
+			a.navItem:hover{
+				background: $yellow;
+				color: $fntDark;
+				font-weight: 900;
+			}
+		}
 }
 .cPage{
 	// color: ;

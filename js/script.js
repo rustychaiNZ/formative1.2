@@ -3,15 +3,15 @@ $(document).ready(function(){
 // Navigation----------
 	// Opens the hamburger menu
 	$('#menu').click(function(){
-		$('nav').fadeToggle('active');
+		$('#nav').fadeToggle('active');
 	})
 	//Buttons that allows you to close the hamburger menu
-	$('#close, li').click(function(){
-		$('nav').fadeOut(500);
+	$('#close, .navItem').click(function(){
+		$('#nav').fadeOut(500);
 	})
 	// Closes the hamburger menu
 	$('nav').mouseleave(function(){
-		$('nav').fadeOut(500);
+		$('#nav').fadeOut(500);
 	})
 
 // Food Menu-------------

@@ -49,6 +49,12 @@ h4 {
   color: #4a4a4a;
   text-align: center; }
 
+.opnHoursUl li, .paraContact {
+  color: #e3e3e3; }
+
+.lghtH {
+  color: #e3e3e3; }
+
 .paraBttn {
   text-align: center;
   margin-top: 8px;
@@ -72,7 +78,7 @@ h4 {
   text-decoration: underline; }
 
 .logo {
-  width: 41.65%;
+  width: 50px;
   margin: auto;
   display: block; }
 
@@ -101,6 +107,7 @@ h4 {
   background-image: url("../images/inside-bar.jpg");
   background-position: top center;
   background-attachment: fixed;
+  background-size: 700px;
   height: 42vh; }
 
 #foodImage {
@@ -112,7 +119,8 @@ h4 {
 
 #drinkImage {
   background-image: url("../images/drinks.jpg");
-  background-position: center;
+  background-position: bottom center;
+  background-size: 700px;
   background-attachment: fixed;
   height: 50vh; }
 
@@ -169,7 +177,7 @@ h4 {
   font-size: 40px;
   color: #dbc12a; }
 
-nav {
+#nav {
   background-color: #333;
   width: 99.96%;
   height: 100vh;
@@ -178,19 +186,36 @@ nav {
   top: 0;
   left: 0;
   display: none; }
-  nav ul {
+  #nav ul {
     list-style: none; }
-    nav ul li {
+    #nav ul li {
       text-align: center; }
-      nav ul li a.navItem {
+      #nav ul li a.navItem {
         text-decoration: none;
         color: #e3e3e3;
         padding: 20px;
         display: block; }
-      nav ul li a.navItem:hover {
+      #nav ul li a.navItem:hover {
         background: #dbc12a;
         color: #2b2b2b;
         font-weight: 900; }
+
+#navDesktop {
+  display: none; }
+  #navDesktop ul {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    #navDesktop ul li {
+      display: inline;
+      font-size: 1.4em; }
+    #navDesktop ul a.navItem {
+      text-decoration: none;
+      color: #e3e3e3;
+      padding: 15px 50px; }
+    #navDesktop ul a.navItem:hover {
+      background: #dbc12a;
+      color: #2b2b2b;
+      font-weight: 900; }
 
 .cPage {
   text-decoration: underline; }
@@ -271,7 +296,7 @@ body {
   width: 100%;
   padding: 0;
   float: left;
-  background: #f2f2f2; }
+  background: 0; }
 
 .imgContainer {
   width: 100%;
@@ -292,8 +317,11 @@ body {
   width: 100%;
   padding: 0;
   float: left;
-  background: #f2f2f2;
+  background: 0;
   margin: 2% 0; }
+
+.drkBg {
+  background: #333; }
 
 .heading {
   width: 100%;
@@ -329,8 +357,29 @@ body {
     float: left; }
 
   h1 {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  .sticky {
+    padding: 10px; }
+
+  .map {
+    height: 54vh; }
+
+  #coverImage {
+    background-attachment: scroll;
+    background-repeat: no-repeat; }
+
+  #foodImage {
+    background-attachment: scroll;
+    background-repeat: no-repeat; }
+
+  #drinkImage {
+    background-attachment: scroll;
+    background-repeat: no-repeat; } }
 @media only screen and (min-width: 1024px) {
+  * {
+    scroll-behavior: smooth; }
+
   .menuItem {
     width: 49.98%;
     padding-right: 2%;
@@ -339,7 +388,20 @@ body {
     margin: 0; }
 
   h1 {
-    font-size: 3em; }
+    font-size: 3em;
+    text-align: left; }
+
+  .websiteTitleContainer {
+    width: 41.65%; }
+
+  .logoContainer {
+    width: 58.31%; }
+
+  .logo {
+    width: 115px;
+    float: right;
+    margin-right: 3%;
+    display: block; }
 
   .nonAlcoholic {
     width: 50%;
@@ -350,13 +412,63 @@ body {
     overflow: hidden; }
 
   .map {
-    min-height: 100%; } }
+    min-height: 100%; }
+
+  .brandContainer {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  .menuContainer {
+    display: none; }
+
+  #navDesktop {
+    display: block;
+    width: 58.31%; }
+
+  #aboutWritten {
+    margin-top: 15vh; }
+
+  #locationWritten {
+    margin-top: 5vh; }
+
+  #coverImage {
+    background-size: 1150px;
+    background-position: center;
+    height: 65vh; }
+
+  #foodImage {
+    background-size: 1150px;
+    background-position: center;
+    height: 65vh; }
+
+  #drinkImage {
+    background-size: 1150px;
+    background-position: center;
+    height: 65vh; }
+
+  #menuFood {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    height: 65vh; }
+
+  #menuDrinks {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 78vh; } }
 @media only screen and (min-width: 1920px) {
-  .imgContainer {
-    height: 945px; }
+  #locationWritten {
+    margin-top: 20vh; }
+
+  #foodWritten {
+    margin-top: 5vh;
+    padding: 15px; }
 
   .map {
-    height: 88vh; } }
+    height: 80vh; } }
 hr {
   border: none;
   height: 2px;
@@ -366,5 +478,9 @@ hr {
   /* old IE */
   background-color: #333;
   /* Modern Browsers */ }
+
+.hidden {
+  display: none;
+  margin-top: 3%; }
 
 /*# sourceMappingURL=style.css.map */

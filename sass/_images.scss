@@ -1,5 +1,6 @@
 .logo{
-	width: 5*$col;
+	width: 50px;
+	// max-width: 100px;
 	margin: auto;
 	display: block;
 }
@@ -29,6 +30,7 @@
 	background-image: url("../images/inside-bar.jpg");
 	background-position: top center;
 	background-attachment: fixed;
+	background-size: 700px;
 	height: 42vh;
 }
 #foodImage{
@@ -40,7 +42,8 @@
 }
 #drinkImage{
 	background-image: url("../images/drinks.jpg");
-	background-position: center;
+	background-position: bottom center;
+	background-size: 700px;
 	background-attachment: fixed;
 	height: 50vh;
 }

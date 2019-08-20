@@ -30,13 +30,23 @@
 						<img src="images/traxLogo.png" alt="Trax Logo" class="logo"></a>
 					</div>
 				</div>
-
+				
+				<!-- Nav mobile -->
 				<nav id="nav">
 					<i class="fa close fa-times-circle" aria-hidden="true" id="close"></i>
 					<ul class="nav">
 						<li class="navItem"><a href="#about" class="navItem" id="navItem">About</a></li>
 						<li class="navItem"><a href="#food" class="navItem" id="navItem">Food</a></li>
 						<li class="navItem"><a href="#drinks" class="navItem" id="navItem">Drinks</a></li>
+					</ul>
+				</nav>
+
+				<!-- Nav Desktop -->
+				<nav id="navDesktop">
+					<ul class="navDesktop">
+						<li class="navItemDesk"><a href="#about" class="navItem">About</a></li>
+						<li class="navItemDesk"><a href="#food" class="navItem">Food</a></li>
+						<li class="navItemDesk"><a href="#drinks" class="navItem">Drinks</a></li>
 					</ul>
 				</nav>
 
@@ -48,7 +58,7 @@
 				</div>
 
 				<!-- Container holding all written content -->
-				<div class="writtenContent">
+				<div class="writtenContent" id="aboutWritten">
 
 					<!-- Title Div -->
 					<div class="heading">
@@ -70,16 +80,16 @@
 			</div>
 
 			<!-- Location Section -->
-			<div class="section">
+			<div class="section drkBg">
 
 				<!-- Container holding all written content -->
-				<div class="writtenContent">
+				<div class="writtenContent drkBg" id="locationWritten">
 
 					<!-- Container holding opening information -->
 					<div class="location">
 
 						<div class="subHeading">
-							<h3>Open Hours</h3>
+							<h3 class="lghtH">Open Hours</h3>
 						</div>
 						<div class="bodyContainer">
 							<ul class="opnHoursUl">
@@ -88,8 +98,8 @@
 								<ul>
 									<li>Open late Stadium Events</li>
 								</ul>
-								<li><b>Sunday:</b> <br> Only open for Stadium Events</li>
-							</ul>
+									<li><b>Sunday:</b> <br> Only open for Stadium Events</li>
+								</ul>
 						</div>
 						
 					</div>
@@ -98,7 +108,7 @@
 					<div class="location">
 
 						<div class="subHeading">
-							<h3>Find Us</h3>
+							<h3 class="lghtH">Find Us</h3>
 						</div>
 
 						<div class="bodyContainer">
@@ -112,7 +122,7 @@
 					<div class="location">
 
 						<div class="subHeading">
-							<h3>Contact Us</h3>
+							<h3 class="lghtH">Contact Us</h3>
 						</div>
 
 						<div class="bodyContainer">
@@ -143,7 +153,7 @@
 				<div class="imgContainer" id="foodImage">
 				</div>
 				
-				<div class="writtenContent">
+				<div class="writtenContent" id="foodWritten">
 
 					<!-- Title Div -->
 					<div class="heading">

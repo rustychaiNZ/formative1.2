@@ -16,3 +16,7 @@ hr{
     color: $bgColorDrk; /* old IE */
     background-color: $bgColorDrk; /* Modern Browsers */
 }
+.hidden{
+	display: none;
+	margin-top: 3%;
+}

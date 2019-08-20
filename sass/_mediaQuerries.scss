@@ -7,9 +7,32 @@
 	h1{
 		font-size: 2em;
 	}
+	.sticky{
+		padding: 10px;
+	}
+	.map{
+		height: 54vh;
+	}
+
+	// Images
+	#coverImage{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+	}
+	#foodImage{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+	}
+	#drinkImage{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+	}
 }
 // Desktop
 @media only screen and (min-width: 1024px) {
+	*{
+		scroll-behavior: smooth;
+	}
 	.menuItem{
 		width: 6*$col;
 		padding-right: $divPad;
@@ -19,6 +42,19 @@
 	}
 	h1{
 		font-size: 3em;
+		text-align: left;
+	}
+	.websiteTitleContainer{
+		width: 5*$col;
+	}
+	.logoContainer{
+		width: 7*$col;
+	}
+	.logo{
+		width: 115px;
+		float: right;
+		margin-right: 3%;
+		display: block;
 	}
 	.nonAlcoholic{
 		width: 50%;
@@ -31,13 +67,71 @@
 	.map{
 		min-height: 100%;
 	}
+	
+	.brandContainer{
+		width: $spanCol;
+		margin-bottom: 20px;
+	}
+	// Navigation
+	.menuContainer{
+		display: none;
+	}
+	#navDesktop{
+		display: block;
+		width: 7*$col;
+	}
+
+	// Cover Page Sections
+	#aboutWritten{
+		margin-top: 15vh;
+	}
+	#locationWritten{
+		margin-top: 5vh;
+	}
+	
+
+	// Images
+	#coverImage{
+		background-size: $coverImageSizeDtop;
+		background-position: center;
+		height: 65vh;
+	}
+	#foodImage{
+		background-size: $coverImageSizeDtop;
+		background-position: center;
+		height: 65vh;
+	}
+	#drinkImage{
+		background-size: $coverImageSizeDtop;
+		background-position: center;
+		height: 65vh;
+	}
+	#menuFood{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-position: center;
+		height: 65vh;
+	}
+	#menuDrinks{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: $spanCol;
+		background-position: center;
+		height: 78vh;
+	}
 }
 
 @media only screen and (min-width: 1920px) {
-	.imgContainer{
-		height: 945px;
+	// Cover Page Sections
+	#locationWritten{
+		margin-top: 20vh;
+	}
+	#foodWritten{
+		margin-top: 5vh;
+		padding: 15px;
 	}
 	.map{
-		height: 88vh;
+		height: 80vh;
 	}
 }
