@@ -438,13 +438,13 @@ body {
 
   #foodImage {
     background-size: 1150px;
-    background-position: center;
-    height: 75vh; }
+    background-position: top center;
+    height: 80vh; }
 
   #drinkImage {
     background-size: 1150px;
     background-position: top center;
-    height: 65vh; }
+    height: 80vh; }
 
   #menuFood {
     background-attachment: scroll;
@@ -456,7 +456,7 @@ body {
   #menuDrinks {
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 2000px;
     background-position: center;
     height: 78vh; } }
 @media only screen and (min-width: 1920px) {

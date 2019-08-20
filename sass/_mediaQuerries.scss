@@ -98,13 +98,13 @@
 	}
 	#foodImage{
 		background-size: $coverImageSizeDtop;
-		background-position: center;
-		height: 75vh;
+		background-position: top center;
+		height: 80vh;
 	}
 	#drinkImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 65vh;
+		height: 80vh;
 	}
 	#menuFood{
 		background-attachment: scroll;
@@ -116,7 +116,7 @@
 	#menuDrinks{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
-		background-size: $spanCol;
+		background-size: 2000px;
 		background-position: center;
 		height: 78vh;
 	}
