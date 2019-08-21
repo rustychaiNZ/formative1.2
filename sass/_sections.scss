@@ -31,7 +31,7 @@ body{
 
 // Index Sections
 .writtenContent{
-	@include divPosition ($spanCol, $divPad, left, $bgColorLght);
+	@include divPosition ($spanCol, 2*$divPad, left, $bgColorLght);
 }
 .bodyContainer{
 	@include divPosition ($spanCol, 0, left, 0)
@@ -66,7 +66,6 @@ body{
 	height: 40px;
 }
 .bttn:hover{
-	color: white;
 	background: $bgColorDrk;
 }
 .bttnStyle{

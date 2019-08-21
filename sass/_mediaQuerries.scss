@@ -4,6 +4,9 @@
 		width: 50%;
 		float: left;
 	}
+	.writtenContent{
+		padding: $divPad;
+	}
 	h1{
 		font-size: 2em;
 	}
@@ -40,15 +43,27 @@
 		height: 260px;
 		margin: 0;
 	}
+	.bttn{
+		float: left;
+		margin: 2% 0;
+	}
+	.sticky{
+		position: static;
+	}
 	h1{
-		font-size: 3em;
+		font-size: 2.7em;
 		text-align: left;
+	}
+	h2{
+		font-size: 2em;
 	}
 	.websiteTitleContainer{
 		width: 5*$col;
+		padding: 0 5%;
 	}
 	.logoContainer{
 		width: 7*$col;
+		padding: 0 10%;
 	}
 	.logo{
 		width: 115px;
@@ -65,7 +80,7 @@
 		overflow: hidden;
 	}
 	.map{
-		min-height: 100%;
+		height: 65vh;
 	}
 	
 	.brandContainer{
@@ -86,7 +101,7 @@
 		margin-top: 15vh;
 	}
 	#locationWritten{
-		margin-top: 5vh;
+		margin-top: 15vh;
 	}
 	
 
@@ -99,12 +114,12 @@
 	#foodImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 80vh;
+		height: 75vh;
 	}
 	#drinkImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 74vh;
+		height: 70vh;
 	}
 	#menuFood{
 		background-attachment: scroll;
@@ -118,20 +133,59 @@
 		background-repeat: no-repeat;
 		background-size: 2000px;
 		background-position: center;
-		height: 78vh;
+		height: 81.22vh;
 	}
 }
 
 @media only screen and (min-width: 1920px) {
+	h1{
+		font-size: 3em;
+	}
 	// Cover Page Sections
 	#locationWritten{
-		margin-top: 20vh;
+		margin-top: 30vh;
+	}
+	#aboutWritten{
+		margin-top: 30vh;
 	}
 	#foodWritten{
-		margin-top: 5vh;
-		padding: 15px;
+		margin-top: 12vh;
+	}
+	#drinksWritten{
+		margin-top: 12vh;
 	}
 	.map{
-		height: 80vh;
+		height: 100vh;
+	}
+
+	// Images
+	#coverImage{
+		background-size: 1500px;
+		background-position: center;
+		height: 100vh;
+	}
+	#foodImage{
+		background-size: 1500px;
+		background-position: top center;
+		height: 100vh;
+	}
+	#drinkImage{
+		background-size: 2000px;
+		background-position: center;
+		height: 100vh;
+	}
+	#menuFood{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-position: center;
+		height: 81.22vh;
+	}
+	#menuDrinks{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-position: center;
+		height: 81.22vh;
 	}
 }

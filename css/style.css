@@ -60,7 +60,7 @@ h4 {
   margin-top: 8px;
   color: black; }
 
-.paraBttn:hover {
+.bttn:hover .paraBttn {
   color: #e3e3e3; }
 
 .paraWine {
@@ -288,7 +288,7 @@ body {
 
 .writtenContent {
   width: 100%;
-  padding: 2%;
+  padding: 4%;
   float: left;
   background: #f2f2f2; }
 
@@ -338,7 +338,6 @@ body {
   height: 40px; }
 
 .bttn:hover {
-  color: white;
   background: #333; }
 
 .bttnStyle {
@@ -355,6 +354,9 @@ body {
   .imgContainer, .writtenContent {
     width: 50%;
     float: left; }
+
+  .writtenContent {
+    padding: 2%; }
 
   h1 {
     font-size: 2em; }
@@ -387,15 +389,27 @@ body {
     height: 260px;
     margin: 0; }
 
+  .bttn {
+    float: left;
+    margin: 2% 0; }
+
+  .sticky {
+    position: static; }
+
   h1 {
-    font-size: 3em;
+    font-size: 2.7em;
     text-align: left; }
 
+  h2 {
+    font-size: 2em; }
+
   .websiteTitleContainer {
-    width: 41.65%; }
+    width: 41.65%;
+    padding: 0 5%; }
 
   .logoContainer {
-    width: 58.31%; }
+    width: 58.31%;
+    padding: 0 10%; }
 
   .logo {
     width: 115px;
@@ -412,7 +426,7 @@ body {
     overflow: hidden; }
 
   .map {
-    min-height: 100%; }
+    height: 65vh; }
 
   .brandContainer {
     width: 100%;
@@ -429,7 +443,7 @@ body {
     margin-top: 15vh; }
 
   #locationWritten {
-    margin-top: 5vh; }
+    margin-top: 15vh; }
 
   #coverImage {
     background-size: 1150px;
@@ -439,12 +453,12 @@ body {
   #foodImage {
     background-size: 1150px;
     background-position: top center;
-    height: 80vh; }
+    height: 75vh; }
 
   #drinkImage {
     background-size: 1150px;
     background-position: top center;
-    height: 74vh; }
+    height: 70vh; }
 
   #menuFood {
     background-attachment: scroll;
@@ -458,17 +472,54 @@ body {
     background-repeat: no-repeat;
     background-size: 2000px;
     background-position: center;
-    height: 78vh; } }
+    height: 81.22vh; } }
 @media only screen and (min-width: 1920px) {
+  h1 {
+    font-size: 3em; }
+
   #locationWritten {
-    margin-top: 20vh; }
+    margin-top: 30vh; }
+
+  #aboutWritten {
+    margin-top: 30vh; }
 
   #foodWritten {
-    margin-top: 5vh;
-    padding: 15px; }
+    margin-top: 12vh; }
+
+  #drinksWritten {
+    margin-top: 12vh; }
 
   .map {
-    height: 80vh; } }
+    height: 100vh; }
+
+  #coverImage {
+    background-size: 1500px;
+    background-position: center;
+    height: 100vh; }
+
+  #foodImage {
+    background-size: 1500px;
+    background-position: top center;
+    height: 100vh; }
+
+  #drinkImage {
+    background-size: 2000px;
+    background-position: center;
+    height: 100vh; }
+
+  #menuFood {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    height: 81.22vh; }
+
+  #menuDrinks {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    height: 81.22vh; } }
 hr {
   border: none;
   height: 2px;
@@ -478,9 +529,5 @@ hr {
   /* old IE */
   background-color: #333;
   /* Modern Browsers */ }
-
-.hidden {
-  display: none;
-  margin-top: 3%; }
 
 /*# sourceMappingURL=style.css.map */
