@@ -4,11 +4,12 @@
 	margin: auto;
 	display: block;
 }
-.siteImage{
-	height: 60vh;
-	margin-left: 30%;
-	transform: translateX(-30%);
-	margin: auto;
+.footerIcon{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	color: $yellow;
 }
 
 #menuFood{
@@ -44,6 +45,5 @@
 	background-image: url("../images/drinks.jpg");
 	background-position: bottom center;
 	background-size: 700px;
-	background-attachment: fixed;
 	height: 50vh;
 }

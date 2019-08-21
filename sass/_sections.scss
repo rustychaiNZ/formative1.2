@@ -1,6 +1,12 @@
 body{
 	background: $bgColorLght;
 }
+footer{
+	height: 15vh;
+	width: $spanCol;
+	background: $bgColorDrk;
+	float: left;
+}
 .map{
 	width: 12*$col;
 	height: 40vh;
@@ -26,6 +32,11 @@ body{
 }
 .section{
 	width: $spanCol;
+	float: left;
+}
+.social{
+	width: 4*$col;
+	margin: auto 0;
 	float: left;
 }
 

@@ -82,11 +82,12 @@ h4 {
   margin: auto;
   display: block; }
 
-.siteImage {
-  height: 60vh;
-  margin-left: 30%;
-  transform: translateX(-30%);
-  margin: auto; }
+.footerIcon {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: #dbc12a; }
 
 #menuFood {
   background-image: url("../images/food1.jpg");
@@ -121,7 +122,6 @@ h4 {
   background-image: url("../images/drinks.jpg");
   background-position: bottom center;
   background-size: 700px;
-  background-attachment: fixed;
   height: 50vh; }
 
 .menu {
@@ -259,6 +259,12 @@ h4 {
 body {
   background: #f2f2f2; }
 
+footer {
+  height: 15vh;
+  width: 100%;
+  background: #333;
+  float: left; }
+
 .map {
   width: 99.96%;
   height: 40vh;
@@ -284,6 +290,11 @@ body {
 
 .section {
   width: 100%;
+  float: left; }
+
+.social {
+  width: 33.32%;
+  margin: auto 0;
   float: left; }
 
 .writtenContent {
