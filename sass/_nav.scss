@@ -30,6 +30,7 @@
 // Nav for Desktop
 #navDesktop{
 	display: none;
+	width: $spanCol;
 	ul{
 			padding-top: 5px;
 			padding-bottom: 5px;
@@ -87,5 +88,5 @@
 }
 .logoContainer{
 	width: 4*$col;
-	float: right;	
+	float: left;	
 }

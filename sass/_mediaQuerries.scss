@@ -51,7 +51,7 @@
 		position: static;
 	}
 	h1{
-		font-size: 2.7em;
+		font-size: 2.5em;
 		text-align: left;
 	}
 	h2{
@@ -93,15 +93,18 @@
 	}
 	#navDesktop{
 		display: block;
-		width: 7*$col;
+		width: $spanCol;
 	}
 
 	// Cover Page Sections
 	#aboutWritten{
-		margin-top: 15vh;
+		margin-top: 10vh;
 	}
 	#locationWritten{
 		margin-top: 15vh;
+	}
+	#foodWritten{
+		margin-top: 5vh;
 	}
 	
 
@@ -187,5 +190,8 @@
 		background-size: 2000px;
 		background-position: center;
 		height: 81.22vh;
+	}
+	#bkToTop{
+		padding: 15px 30px;
 	}
 }

@@ -4,7 +4,7 @@ p{
 	margin: 2% 0;
 }
 h1{
-	@include textStyle ($headingFont, 1.6em, $fntWhite, center);
+	@include textStyle ('Lexend Deca', 1.6em, $fntWhite, center);
 }
 h1:hover{
 	color: $yellow;

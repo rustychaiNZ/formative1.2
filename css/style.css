@@ -23,7 +23,7 @@ p, li, .menuTable td {
   margin: 2% 0; }
 
 h1 {
-  font-family: Century Gothic;
+  font-family: "Lexend Deca";
   font-size: 1.6em;
   color: #e3e3e3;
   text-align: center; }
@@ -82,26 +82,25 @@ h4 {
   margin: auto;
   display: block; }
 
-.footerIcon {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  color: #dbc12a; }
+.socialBttn {
+  width: 16.66%;
+  max-width: 50px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 #menuFood {
   background-image: url("../images/food1.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 1250px;
-  background-attachment: fixed;
   height: 61vh; }
 
 #menuDrinks {
   background-image: url("../images/drinks1.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 68vh; }
 
 #coverImage {
@@ -201,7 +200,8 @@ h4 {
         font-weight: 900; }
 
 #navDesktop {
-  display: none; }
+  display: none;
+  width: 100%; }
   #navDesktop ul {
     padding-top: 5px;
     padding-bottom: 5px; }
@@ -254,7 +254,7 @@ h4 {
 
 .logoContainer {
   width: 33.32%;
-  float: right; }
+  float: left; }
 
 body {
   background: #f2f2f2; }
@@ -262,6 +262,7 @@ body {
 footer {
   height: 15vh;
   width: 100%;
+  padding: 5%;
   background: #333;
   float: left; }
 
@@ -293,9 +294,9 @@ footer {
   float: left; }
 
 .social {
-  width: 33.32%;
-  margin: auto 0;
-  float: left; }
+  width: 100%;
+  float: left;
+  padding: 0 4%; }
 
 .writtenContent {
   width: 100%;
@@ -356,6 +357,29 @@ footer {
   box-shadow: 2px 2px 3px #2e2e2e;
   border-radius: 3px; }
 
+#bkToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: #dbc12a;
+  /* Set a background color */
+  color: #2b2b2b;
+  /* Text color */
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1em;
+  box-shadow: 3px 3px 3px #2e2e2e; }
+
+#bkToTop:hover {
+  background: #333;
+  color: #e3e3e3; }
+
 .testImage {
   height: 400px;
   background: darkslategrey;
@@ -408,7 +432,7 @@ footer {
     position: static; }
 
   h1 {
-    font-size: 2.7em;
+    font-size: 2.5em;
     text-align: left; }
 
   h2 {
@@ -448,13 +472,16 @@ footer {
 
   #navDesktop {
     display: block;
-    width: 58.31%; }
+    width: 100%; }
 
   #aboutWritten {
-    margin-top: 15vh; }
+    margin-top: 10vh; }
 
   #locationWritten {
     margin-top: 15vh; }
+
+  #foodWritten {
+    margin-top: 5vh; }
 
   #coverImage {
     background-size: 1150px;
@@ -530,7 +557,10 @@ footer {
     background-repeat: no-repeat;
     background-size: 2000px;
     background-position: center;
-    height: 81.22vh; } }
+    height: 81.22vh; }
+
+  #bkToTop {
+    padding: 15px 30px; } }
 hr {
   border: none;
   height: 2px;

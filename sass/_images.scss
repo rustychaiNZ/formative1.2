@@ -4,12 +4,14 @@
 	margin: auto;
 	display: block;
 }
-.footerIcon{
-	display: inline-block;
-	width: 100%;
-	text-align: center;
-	font-size: 40px;
-	color: $yellow;
+.socialBttn{
+	width: 2*$col;
+	max-width: 50px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
 }
 
 #menuFood{
@@ -17,14 +19,12 @@
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: 1250px;
-	background-attachment: fixed;
 	height: 61vh;
 }
 #menuDrinks{
 	background-image: url("../images/drinks1.jpg");
 	background-position: bottom center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	height: 68vh;
 }
 #coverImage{
