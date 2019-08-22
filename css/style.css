@@ -128,7 +128,8 @@ h4 {
   width: 100%;
   padding: 2%;
   float: left;
-  background: #f2f2f2; }
+  background: #f2f2f2;
+  cursor: pointer; }
 
 .menuHidden {
   width: 100%;
@@ -159,7 +160,8 @@ h4 {
   width: 100%;
   text-align: center;
   font-size: 40px;
-  color: #dbc12a; }
+  color: #dbc12a;
+  cursor: pointer; }
 
 .menuTable {
   width: 100%; }
