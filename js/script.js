@@ -73,17 +73,20 @@ $(document).ready(function(){
 
 });
 
-// Scroll to top
+// Scroll to top---------
+// Declears 'scroll function' variable
 window.onscroll = function() {scrollFunction()};
 
+// first function, when the document is scrolled down by 180px, reveal the 'back to top function'. If the window hasn't been scrolled down by at least 180px, no button will be displayed
 function scrollFunction() {
-	if (document.body.scrollTop > 190 || document.documentElement.scrollTop > 190) {
+	if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
 		document.getElementById("bkToTop").style.display = "block";
 	} else {
 		document.getElementById("bkToTop").style.display = "none";
   	}
 }
 
+// This function is related to when the user clicks the buttom. It will take the user straight back up to the top
 function topFunction() {
 	document.body.scrollTop = 0; // For Safari
 	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera

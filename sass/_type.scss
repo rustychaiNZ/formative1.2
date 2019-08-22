@@ -39,7 +39,7 @@ li{
 	color: $fntWhite;
 }
 
-.paraWine{
+.description{
 	@include textStyle ($paraFont, 0.8em, $fntParaColor, left);
 	margin: 2% 0;
 }

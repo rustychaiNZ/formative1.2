@@ -1,3 +1,4 @@
+// Elements
 body{
 	background: $bgColorLght;
 }
@@ -13,6 +14,19 @@ footer{
 	height: 40vh;
 	border: 0;
 }
+
+// Section containers
+.main{
+	width: $spanCol;
+}
+.writtenContent{
+	@include divPosition ($spanCol, 2*$divPad, left, $bgColorLght);
+}
+.imgContainer{
+	@include divPosition ($spanCol, 0, left, 0);
+	overflow: hidden;
+	min-height: 200px;
+}
 .sticky{
 	position: sticky;
 	top: 0;
@@ -20,9 +34,6 @@ footer{
 	float: left;
 	padding: $divPad;
 	background: $bgColorDrk;
-}
-.main{
-	width: $spanCol;
 }
 .brandContainer{
 	width: 10*$col;
@@ -40,19 +51,20 @@ footer{
 	float: left;
 	padding: 0 2*$divPad;
 }
+.heading{
+	@include divPosition ($spanCol, 0, left, 0);
+}
+.websiteTitleContainer{
+	width: 8*$col;
+	float: left;	
+	margin-top: 1%;
+}
+.logoContainer{
+	width: 4*$col;
+	float: left;	
+}
 
 // Index Sections
-.writtenContent{
-	@include divPosition ($spanCol, 2*$divPad, left, $bgColorLght);
-}
-.bodyContainer{
-	@include divPosition ($spanCol, 0, left, 0)
-}
-.imgContainer{
-	@include divPosition ($spanCol, 0, left, 0);
-	overflow: hidden;
-	min-height: 200px;
-}
 .menuItem{
 	@include divPosition ($spanCol, 0, left, $bgColorLght);
 	margin: 2% 0;
@@ -64,8 +76,8 @@ footer{
 .drkBg{
 	background: $bgColorDrk;
 }
-.heading{
-	@include divPosition ($spanCol, 0, left, 0);
+.bodyContainer{
+	@include divPosition ($spanCol, 0, left, 0)
 }
 
 // Buttons
@@ -93,7 +105,7 @@ footer{
 	z-index: 99; /* Make sure it does not overlap */
 	border: none; 
 	outline: none; 
-	background-color: $yellow; /* Set a background color */
+	background: $yellow; /* Set a background color */
 	color: $fntDark; /* Text color */
 	cursor: pointer;
 	padding: 15px; 

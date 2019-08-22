@@ -1,3 +1,4 @@
+// Nav for mobile. Tablet and desktop
 #nav{
 	background-color: $bgColorDrk;
 	width: 12*$col;
@@ -26,6 +27,10 @@
 		}
 	}
 }
+.menuContainer{
+	width: 2*$col;
+	float: left;
+}
 
 // Nav for Desktop
 #navDesktop{
@@ -50,16 +55,13 @@
 			}
 		}
 }
-.cPage{
-	// color: ;
-	text-decoration: underline;
-}
+
+// Class called in jquerry to reveal nav menu in mobile mode
 .active{
 	display: block;
 }
-.inactive{
-	display: none;
-}
+
+// Nav menu icons
 .fas{
 	color: #e3e3e3;
 	font-size: 40px;
@@ -77,16 +79,4 @@
 .close:hover{
 	color: $bgColorLght;
 }
-.menuContainer{
-	width: 2*$col;
-	float: left;
-}
-.websiteTitleContainer{
-	width: 8*$col;
-	float: left;	
-	margin-top: 1%;
-}
-.logoContainer{
-	width: 4*$col;
-	float: left;	
-}
+

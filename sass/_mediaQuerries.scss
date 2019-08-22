@@ -1,5 +1,6 @@
 // Ipad
 @media only screen and (min-width: 768px) {
+	// Section Containers
 	.imgContainer, .writtenContent{
 		width: 50%;
 		float: left;
@@ -7,11 +8,13 @@
 	.writtenContent{
 		padding: $divPad;
 	}
-	h1{
-		font-size: 2em;
-	}
 	.sticky{
 		padding: 10px;
+	}
+
+	// Elements on page
+	h1{
+		font-size: 2em;
 	}
 	.map{
 		height: 54vh;
@@ -31,7 +34,8 @@
 		background-repeat: no-repeat;
 	}
 }
-// Desktop
+
+// Desktop window modes
 @media only screen and (min-width: 1024px) {
 	*{
 		scroll-behavior: smooth;
@@ -43,19 +47,13 @@
 		height: 260px;
 		margin: 0;
 	}
+	// Sections
 	.bttn{
 		float: left;
 		margin: 2% 0;
 	}
 	.sticky{
 		position: static;
-	}
-	h1{
-		font-size: 2.5em;
-		text-align: left;
-	}
-	h2{
-		font-size: 2em;
 	}
 	.websiteTitleContainer{
 		width: 5*$col;
@@ -65,37 +63,18 @@
 		width: 7*$col;
 		padding: 0 10%;
 	}
-	.logo{
-		width: 115px;
-		float: right;
-		margin-right: 3%;
-		display: block;
-	}
 	.nonAlcoholic{
-		width: 50%;
+		width: 6*$col;
 		margin: auto;
 	}
 	.location{
 		width: 4*$col;
 		overflow: hidden;
 	}
-	.map{
-		height: 65vh;
-	}
-	
 	.brandContainer{
 		width: $spanCol;
 		margin-bottom: 20px;
 	}
-	// Navigation
-	.menuContainer{
-		display: none;
-	}
-	#navDesktop{
-		display: block;
-		width: $spanCol;
-	}
-
 	// Cover Page Sections
 	#aboutWritten{
 		margin-top: 10vh;
@@ -105,6 +84,33 @@
 	}
 	#foodWritten{
 		margin-top: 5vh;
+	}
+
+	// Elements
+	h1{
+		font-size: 2.4em;
+		text-align: left;
+	}
+	h2{
+		font-size: 2em;
+	}
+	.logo{
+		width: 115px;
+		float: right;
+		margin-right: 3%;
+		display: block;
+	}
+	.map{
+		height: 65vh;
+	}
+	
+	// Navigation
+	.menuContainer{
+		display: none;
+	}
+	#navDesktop{
+		display: block;
+		width: $spanCol;
 	}
 	
 
@@ -140,10 +146,16 @@
 	}
 }
 
+// Desktop full screen mode. 1920x1080, 1920x1200 and 2560x1080 tested
 @media only screen and (min-width: 1920px) {
+	// Elements
 	h1{
 		font-size: 3em;
 	}
+	#bkToTop{
+		padding: 15px 30px;
+	}
+
 	// Cover Page Sections
 	#locationWritten{
 		margin-top: 30vh;
@@ -190,8 +202,5 @@
 		background-size: 2000px;
 		background-position: center;
 		height: 81.22vh;
-	}
-	#bkToTop{
-		padding: 15px 30px;
 	}
 }

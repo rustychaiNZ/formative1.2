@@ -9,28 +9,6 @@
 .menuHidden{
 	display: none;
 }
-
-// Menu Table
-.menuTable{
-	width: $spanCol;
-	td{
-		@extend p;
-		padding: 1% 0;
-	}
-	th{
-		@include textStyle ($headingFont, 1.1em, $fntParaColor, left);
-		padding: 1% 0;
-		// padding-bottom: 4px;
-	}
-	th.subH{
-	font-size: 1.5em;
-	text-align: center;
-	margin: auto;
-	color: black;
-}
-}
-
-
 .indicatorContainor{
 	width: 4*$col;
 	float: right;
@@ -54,4 +32,23 @@
 	color: $yellow;
 }
 
-// Images
+// Menu Table
+.menuTable{
+	width: $spanCol;
+	td{
+		@extend p;
+		padding: 1% 0;
+	}
+	th{
+		@include textStyle ($headingFont, 1.1em, $fntParaColor, left);
+		padding: 1% 0;
+		// padding-bottom: 4px;
+	}
+	th.subH{
+	font-size: 1.5em;
+	text-align: center;
+	margin: auto;
+	color: black;
+	}
+}
+
