@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: sans-serif; }
 
 a {
   text-decoration: none;
@@ -100,7 +101,7 @@ h4 {
 #menuDrinks {
   background-image: url("../images/drinks2.jpg");
   background-position: center;
-  background-size: 1000px;
+  background-size: 800px;
   background-repeat: no-repeat;
   height: 68vh; }
 
@@ -199,8 +200,7 @@ h4 {
         display: block; }
       #nav ul li a.navItem:hover {
         background: #dbc12a;
-        color: #2b2b2b;
-        font-weight: 900; }
+        color: #2b2b2b; }
 
 .menuContainer {
   width: 16.66%;
@@ -221,8 +221,7 @@ h4 {
       padding: 15px 50px; }
     #navDesktop ul a.navItem:hover {
       background: #dbc12a;
-      color: #2b2b2b;
-      font-weight: 900; }
+      color: #2b2b2b; }
 
 .active {
   display: block; }
@@ -248,9 +247,9 @@ body {
   background: #f2f2f2; }
 
 footer {
-  height: 15vh;
+  height: 100px;
   width: 100%;
-  padding: 5%;
+  padding-top: 25px;
   background: #333;
   float: left; }
 
@@ -298,7 +297,7 @@ footer {
 .social {
   width: 100%;
   float: left;
-  padding: 0 4%; }
+  padding: 0 10px; }
 
 .heading {
   width: 100%;
@@ -383,15 +382,22 @@ footer {
   width: 99.96%; }
 
 @media only screen and (min-width: 768px) {
-  .imgContainer, .writtenContent {
-    width: 50%;
-    float: left; }
-
   .writtenContent {
     padding: 2%; }
 
+  .menuItem {
+    width: 49.98%;
+    padding-right: 2%;
+    float: left;
+    height: 260px;
+    margin: 0; }
+
   .sticky {
     padding: 10px; }
+
+  .bttn {
+    float: left;
+    margin-left: 0; }
 
   h1 {
     font-size: 2em; }
@@ -401,7 +407,7 @@ footer {
 
   #coverImage {
     background-attachment: scroll;
-    background-size: 1700px;
+    background-size: 1200px;
     background-position: center;
     height: 51vh;
     background-repeat: no-repeat; }
@@ -409,13 +415,13 @@ footer {
   #foodImage {
     background-attachment: scroll;
     background-size: 1700px;
-    background-position: center left;
-    height: 93vh;
+    background-position: center;
+    height: 52vh;
     background-repeat: no-repeat; }
 
   #drinkImage {
     background-attachment: scroll;
-    height: 85vh;
+    height: 50vh;
     background-size: 1800px;
     background-position: center;
     background-repeat: no-repeat; }
@@ -437,12 +443,9 @@ footer {
   * {
     scroll-behavior: smooth; }
 
-  .menuItem {
-    width: 49.98%;
-    padding-right: 2%;
-    float: left;
-    height: 260px;
-    margin: 0; }
+  .imgContainer, .writtenContent {
+    width: 50%;
+    float: left; }
 
   .bttn {
     float: left;
@@ -472,13 +475,16 @@ footer {
     margin-bottom: 20px; }
 
   #aboutWritten {
-    margin-top: 10vh; }
+    margin-top: 30px; }
 
   #locationWritten {
     margin-top: 15vh; }
 
   #foodWritten {
-    margin-top: 5vh; }
+    margin-top: 50px; }
+
+  #drinksWritten {
+    margin-top: 30px; }
 
   h1 {
     font-size: 2.4em;
@@ -494,7 +500,7 @@ footer {
     display: block; }
 
   .map {
-    height: 65vh; }
+    height: 690px; }
 
   .menuContainer {
     display: none; }
@@ -506,17 +512,17 @@ footer {
   #coverImage {
     background-size: 1500px;
     background-position: center;
-    height: 70vh; }
+    height: 500px; }
 
   #foodImage {
     background-size: 1500px;
     background-position: top center;
-    height: 85vh; }
+    height: 725px; }
 
   #drinkImage {
     background-size: 1500px;
     background-position: top center;
-    height: 75vh; }
+    height: 725px; }
 
   #menuFood {
     background-attachment: scroll;
@@ -538,35 +544,35 @@ footer {
   #bkToTop {
     padding: 15px 30px; }
 
-  #locationWritten {
-    margin-top: 30vh; }
-
   #aboutWritten {
-    margin-top: 30vh; }
+    margin-top: 300px; }
+
+  #locationWritten {
+    margin-top: 300px; }
 
   #foodWritten {
-    margin-top: 12vh; }
+    margin-top: 125px; }
 
   #drinksWritten {
-    margin-top: 11vh; }
+    margin-top: 105px; }
 
   .map {
-    height: 100vh; }
+    height: 980px; }
 
   #coverImage {
     background-size: 1500px;
     background-position: center;
-    height: 100vh; }
+    height: 980px; }
 
   #foodImage {
     background-size: 1500px;
     background-position: top center;
-    height: 100vh; }
+    height: 980px; }
 
   #drinkImage {
     background-size: 2000px;
     background-position: center;
-    height: 100vh; }
+    height: 980px; }
 
   #menuFood {
     background-attachment: scroll;

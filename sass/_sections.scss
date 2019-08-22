@@ -3,9 +3,9 @@ body{
 	background: $bgColorLght;
 }
 footer{
-	height: 15vh;
+	height: 100px;
 	width: $spanCol;
-	padding: 5%;
+	padding-top: 25px;
 	background: $bgColorDrk;
 	float: left;
 }
@@ -49,7 +49,7 @@ footer{
 .social{
 	width: $spanCol;
 	float: left;
-	padding: 0 2*$divPad;
+	padding: 0 10px;
 }
 .heading{
 	@include divPosition ($spanCol, 0, left, 0);

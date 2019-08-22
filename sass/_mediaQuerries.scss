@@ -1,15 +1,22 @@
 // Ipad
 @media only screen and (min-width: 768px) {
 	// Section Containers
-	.imgContainer, .writtenContent{
-		width: 50%;
-		float: left;
-	}
 	.writtenContent{
 		padding: $divPad;
 	}
+	.menuItem{
+		width: 6*$col;
+		padding-right: $divPad;
+		float: left;
+		height: 260px;
+		margin: 0;
+	}
 	.sticky{
 		padding: 10px;
+	}
+	.bttn{
+		float: left;
+		margin-left: 0;
 	}
 
 	// Elements on page
@@ -23,7 +30,7 @@
 	// Images
 	#coverImage{
 		background-attachment: scroll;
-		background-size: 1700px;
+		background-size: 1200px;
 		background-position: center;
 		height: 51vh;
 		background-repeat: no-repeat;
@@ -31,13 +38,13 @@
 	#foodImage{
 		background-attachment: scroll;
 		background-size: 1700px;
-		background-position: center left;
-		height: 93vh;
+		background-position: center;
+		height: 52vh;
 		background-repeat: no-repeat;
 	}
 	#drinkImage{
 		background-attachment: scroll;
-		height: 85vh;
+		height: 50vh;
 		background-size: 1800px;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -63,14 +70,12 @@
 	*{
 		scroll-behavior: smooth;
 	}
-	.menuItem{
-		width: 6*$col;
-		padding-right: $divPad;
-		float: left;
-		height: 260px;
-		margin: 0;
-	}
+
 	// Sections
+	.imgContainer, .writtenContent{
+		width: 50%;
+		float: left;
+	}
 	.bttn{
 		float: left;
 		margin: 2% 0;
@@ -100,13 +105,16 @@
 	}
 	// Cover Page Sections
 	#aboutWritten{
-		margin-top: 10vh;
+		margin-top: 30px;
 	}
 	#locationWritten{
 		margin-top: 15vh;
 	}
 	#foodWritten{
-		margin-top: 5vh;
+		margin-top: 50px;
+	}
+	#drinksWritten{
+		margin-top: 30px;
 	}
 
 	// Elements
@@ -124,7 +132,7 @@
 		display: block;
 	}
 	.map{
-		height: 65vh;
+		height: 690px;
 	}
 	
 	// Navigation
@@ -141,17 +149,17 @@
 	#coverImage{
 		background-size: $coverImageSizeDtop;
 		background-position: center;
-		height: 70vh;
+		height: 500px;
 	}
 	#foodImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 85vh;
+		height: 725px;
 	}
 	#drinkImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 75vh;
+		height: 725px;
 	}
 	#menuFood{
 		background-attachment: scroll;
@@ -180,37 +188,37 @@
 	}
 
 	// Cover Page Sections
-	#locationWritten{
-		margin-top: 30vh;
-	}
 	#aboutWritten{
-		margin-top: 30vh;
+		margin-top: 300px;
+	}
+	#locationWritten{
+		margin-top: 300px;
 	}
 	#foodWritten{
-		margin-top: 12vh;
+		margin-top: 125px;
 	}
 	#drinksWritten{
-		margin-top: 11vh;
+		margin-top: 105px;
 	}
 	.map{
-		height: 100vh;
+		height: 980px;
 	}
 
 	// Images
 	#coverImage{
 		background-size: 1500px;
 		background-position: center;
-		height: 100vh;
+		height: 980px;
 	}
 	#foodImage{
 		background-size: 1500px;
 		background-position: top center;
-		height: 100vh;
+		height: 980px;
 	}
 	#drinkImage{
 		background-size: 2000px;
 		background-position: center;
-		height: 100vh;
+		height: 980px;
 	}
 	#menuFood{
 		background-attachment: scroll;
