@@ -99,7 +99,8 @@ h4 {
 
 #menuDrinks {
   background-image: url("../images/drinks2.jpg");
-  background-position: bottom center;
+  background-position: center;
+  background-size: 1000px;
   background-repeat: no-repeat;
   height: 68vh; }
 
@@ -421,13 +422,13 @@ footer {
     background-attachment: scroll;
     height: 78.5vh;
     background-size: 2055px;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat; }
 
   #menuDrinks {
     background-attachment: scroll;
     height: 78.5vh;
-    background-size: 2055px;
+    background-size: 1000px;
     background-position: center;
     background-repeat: no-repeat; } }
 @media only screen and (min-width: 1024px) {
@@ -525,7 +526,7 @@ footer {
   #menuDrinks {
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 2000px;
+    background-size: 1000px;
     background-position: center;
     height: 81.22vh; } }
 @media only screen and (min-width: 1920px) {
@@ -575,7 +576,7 @@ footer {
   #menuDrinks {
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 2000px;
+    background-size: 1000px;
     background-position: center;
     height: 81.22vh; } }
 hr {
