@@ -17,29 +17,29 @@ $(document).ready(function(){
 // Food Menu-------------
 	// Opens menu
 	$('#breakfast').click(function(){
-		$('#breakfastMenu').slideDown('500, active');
+		$('#breakfastMenu').slideToggle('500, active');
 	})
 	// Closes Menu
 	$('#closeBreakfast').click(function(){
-		$('#breakfastMenu').slideUp(500);
+		$('#breakfastMenu').slideToggle(500);
 	})
 
 	$('#pizza').click(function(){
-		$('#pizzaMenu').slideDown('500, active');
+		$('#pizzaMenu').slideToggle('500, active');
 	})
 	$('#closePizza').click(function(){
 		$('#pizzaMenu').slideUp(500);
 	})
 
 	$('#lightMeal').click(function(){
-		$('#lightMealMenu').slideDown('500, active');
+		$('#lightMealMenu').slideToggle('500, active');
 	})
 	$('#closeLightMealMenu').click(function(){
 		$('#lightMealMenu').slideUp(500);
 	})
 
 	$('#allDaySnack').click(function(){
-		$('#allDaySnackMenu').slideDown('500, active');
+		$('#allDaySnackMenu').slideToggle('500, active');
 	})
 	$('#closeAllDaySnack').click(function(){
 		$('#allDaySnackMenu').slideUp(500);
@@ -48,7 +48,7 @@ $(document).ready(function(){
 // Drink Menu----------------------
 	// Opens Menu
 	$('#beer').click(function(){
-		$('#beerMenu').slideDown('500, active');
+		$('#beerMenu').slideToggle('500, active');
 	})
 	// Closes Menu
 	$('#closeBeer').click(function(){
@@ -56,7 +56,7 @@ $(document).ready(function(){
 	})
 
 	$('#wine').click(function(){
-		$('#wineMenu').slideDown('500, active');
+		$('#wineMenu').slideToggle('500, active');
 	})
 	
 	$('#closeWine').click(function(){
@@ -64,7 +64,7 @@ $(document).ready(function(){
 	})
 
 	$('#non-alcoholic').click(function(){
-		$('#non-alcoholicMenu').slideDown('500, active');
+		$('#non-alcoholicMenu').slideToggle('500, active');
 	})
 	
 	$('#closeNon-alcoholic').click(function(){
