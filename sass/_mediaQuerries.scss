@@ -23,14 +23,37 @@
 	// Images
 	#coverImage{
 		background-attachment: scroll;
+		background-size: 1700px;
+		background-position: center;
+		height: 51vh;
 		background-repeat: no-repeat;
 	}
 	#foodImage{
 		background-attachment: scroll;
+		background-size: 1700px;
+		background-position: center left;
+		height: 93vh;
 		background-repeat: no-repeat;
 	}
 	#drinkImage{
 		background-attachment: scroll;
+		height: 85vh;
+		background-size: 1800px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#menuFood{
+		background-attachment: scroll;
+		height: 78.5vh;
+		background-size: 2055px;
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
+	#menuDrinks{
+		background-attachment: scroll;
+		height: 78.5vh;
+		background-size: 2055px;
+		background-position: center;
 		background-repeat: no-repeat;
 	}
 }
@@ -118,17 +141,17 @@
 	#coverImage{
 		background-size: $coverImageSizeDtop;
 		background-position: center;
-		height: 65vh;
+		height: 70vh;
 	}
 	#foodImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 75vh;
+		height: 85vh;
 	}
 	#drinkImage{
 		background-size: $coverImageSizeDtop;
 		background-position: top center;
-		height: 70vh;
+		height: 75vh;
 	}
 	#menuFood{
 		background-attachment: scroll;
@@ -167,7 +190,7 @@
 		margin-top: 12vh;
 	}
 	#drinksWritten{
-		margin-top: 12vh;
+		margin-top: 11vh;
 	}
 	.map{
 		height: 100vh;
