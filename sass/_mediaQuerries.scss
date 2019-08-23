@@ -108,7 +108,7 @@
 		margin-top: 30px;
 	}
 	#locationWritten{
-		margin-top: 15vh;
+		margin-top: 170px;
 	}
 	#foodWritten{
 		margin-top: 50px;
@@ -187,50 +187,97 @@
 		padding: 15px 30px;
 	}
 
+	// // Cover Page Sections
+	// #aboutWritten{
+	// 	margin-top: 300px;
+	// }
+	// #locationWritten{
+	// 	margin-top: 300px;
+	// }
+	// #foodWritten{
+	// 	margin-top: 125px;
+	// }
+	// #drinksWritten{
+	// 	margin-top: 105px;
+	// }
+	// .map{
+	// 	height: 980px;
+	// }
+
+	// // Images
+	// #coverImage{
+	// 	background-size: 1500px;
+	// 	background-position: center;
+	// 	height: 980px;
+	// }
+	// #foodImage{
+	// 	background-size: 1500px;
+	// 	background-position: top center;
+	// 	height: 980px;
+	// }
+	// #drinkImage{
+	// 	background-size: 2000px;
+	// 	background-position: center;
+	// 	height: 980px;
+	// }
+	// #menuFood{
+	// 	background-attachment: scroll;
+	// 	background-repeat: no-repeat;
+	// 	background-size: 2000px;
+	// 	background-position: center;
+	// 	height: 81.22vh;
+	// }
+	// #menuDrinks{
+	// 	background-attachment: scroll;
+	// 	background-repeat: no-repeat;
+	// 	background-size: 1000px;
+	// 	background-position: center;
+	// 	height: 81.22vh;
+	// }
 	// Cover Page Sections
 	#aboutWritten{
-		margin-top: 300px;
+		margin-top: 30vh;
 	}
 	#locationWritten{
-		margin-top: 300px;
+		margin-top: 30vh;
 	}
 	#foodWritten{
-		margin-top: 125px;
+		margin-top: 13vh;
 	}
 	#drinksWritten{
-		margin-top: 105px;
+		margin-top: 12vh;
 	}
 	.map{
-		height: 980px;
+		height: 100vh;
 	}
 
 	// Images
 	#coverImage{
-		background-size: 1500px;
+		background-size: 200vh;
 		background-position: center;
-		height: 980px;
+		height: 100vh;
 	}
 	#foodImage{
-		background-size: 1500px;
+		background-size: 200vh;
 		background-position: top center;
-		height: 980px;
+		height: 100vh;
 	}
 	#drinkImage{
-		background-size: 2000px;
+		background-size: 200vh;
 		background-position: center;
-		height: 980px;
+		height: 100vh;
 	}
 	#menuFood{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
-		background-size: 2000px;
+		background-size: 225vh;
 		background-position: center;
 		height: 81.22vh;
 	}
 	#menuDrinks{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
-		background-size: 1000px;
+		background-size: 125vh;
 		background-position: center;
 		height: 81.22vh;
 	}
