@@ -4,9 +4,8 @@
 	color: $fc;
 	text-align: $ta;
 }
-@mixin divPosition($w, $p, $fl, $bg){
+@mixin divPosition($w, $p, $fl){
 	width: $w;
 	padding: $p;
 	float: $fl;
-	background: $bg;
 }
