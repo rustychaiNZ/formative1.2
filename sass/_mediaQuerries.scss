@@ -201,37 +201,37 @@
 		margin-top: 105px;
 	}
 	.map{
-		height: 980px;
+		height: 100vh;
 	}
 
 	// Images
 	#coverImage{
 		background-size: 1500px;
 		background-position: center;
-		height: 980px;
+		height: 100vh;
 	}
 	#foodImage{
 		background-size: 1500px;
 		background-position: top center;
-		height: 980px;
+		height: 100vh;
 	}
 	#drinkImage{
 		background-size: 2000px;
 		background-position: center;
-		height: 980px;
+		height: 100vh;
 	}
 	#menuFood{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-size: 2000px;
 		background-position: center;
-		height: 81.22vh;
+		height: 70.3vh;
 	}
 	#menuDrinks{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-size: 1000px;
 		background-position: center;
-		height: 81.22vh;
+		height: 70.3vh;
 	}
 }
