@@ -1,10 +1,10 @@
 // Menu Sections
 .menu{
-	@include divPosition ($spanCol, $divPad, left, $bgColorLght);
+	@include divPosition ($spanCol, $divPad, left);
 	cursor: pointer;
 }
 .menuHidden{
-	@include divPosition ($spanCol, $divPad, left, white);
+	@include divPosition ($spanCol, $divPad, left);
 	// display: none;
 }
 .menuHidden{

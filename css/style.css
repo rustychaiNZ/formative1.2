@@ -153,7 +153,6 @@ h4 {
   width: 100%;
   padding: 2%;
   float: left;
-  background: #f2f2f2;
   cursor: pointer;
 }
 
@@ -161,7 +160,6 @@ h4 {
   width: 100%;
   padding: 2%;
   float: left;
-  background: white;
 }
 
 .menuHidden {
@@ -320,14 +318,12 @@ footer {
   width: 100%;
   padding: 4%;
   float: left;
-  background: #f2f2f2;
 }
 
 .imgContainer {
   width: 100%;
   padding: 0;
   float: left;
-  background: 0;
   overflow: hidden;
   min-height: 200px;
 }
@@ -346,10 +342,6 @@ footer {
   float: left;
 }
 
-.borderShadow {
-  box-shadow: 2px 2px 10px #2e2e2e;
-}
-
 .section {
   width: 100%;
   float: left;
@@ -365,7 +357,6 @@ footer {
   width: 100%;
   padding: 0;
   float: left;
-  background: 0;
 }
 
 .websiteTitleContainer {
@@ -379,11 +370,26 @@ footer {
   float: left;
 }
 
+.borderShadow {
+  box-shadow: 2px 2px 10px #2e2e2e;
+}
+
+.drkBg {
+  background: #333;
+}
+
+.lghtBg {
+  background: #f2f2f2;
+}
+
+.bgWhite {
+  background: white;
+}
+
 .menuItem {
   width: 100%;
   padding: 0;
   float: left;
-  background: #f2f2f2;
   margin: 2% 0;
 }
 
@@ -391,19 +397,13 @@ footer {
   width: 100%;
   padding: 0;
   float: left;
-  background: 0;
   margin: 2% 0;
-}
-
-.drkBg {
-  background: #333;
 }
 
 .bodyContainer {
   width: 100%;
   padding: 0;
   float: left;
-  background: 0;
 }
 
 .bttn {
@@ -575,7 +575,7 @@ footer {
   }
 
   #locationWritten {
-    margin-top: 15vh;
+    margin-top: 170px;
   }
 
   #foodWritten {
@@ -659,19 +659,19 @@ footer {
   }
 
   #aboutWritten {
-    margin-top: 300px;
+    margin-top: 30vh;
   }
 
   #locationWritten {
-    margin-top: 300px;
+    margin-top: 30vh;
   }
 
   #foodWritten {
-    margin-top: 125px;
+    margin-top: 13vh;
   }
 
   #drinksWritten {
-    margin-top: 105px;
+    margin-top: 12vh;
   }
 
   .map {
@@ -679,19 +679,19 @@ footer {
   }
 
   #coverImage {
-    background-size: 1500px;
+    background-size: 200vh;
     background-position: center;
     height: 100vh;
   }
 
   #foodImage {
-    background-size: 1500px;
+    background-size: 200vh;
     background-position: top center;
     height: 100vh;
   }
 
   #drinkImage {
-    background-size: 2000px;
+    background-size: 200vh;
     background-position: center;
     height: 100vh;
   }
@@ -699,7 +699,7 @@ footer {
   #menuFood {
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 2000px;
+    background-size: 225vh;
     background-position: center;
     height: 70.3vh;
   }
@@ -707,7 +707,7 @@ footer {
   #menuDrinks {
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 1000px;
+    background-size: 125vh;
     background-position: center;
     height: 70.3vh;
   }
